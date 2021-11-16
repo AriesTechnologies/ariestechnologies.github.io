@@ -1,3 +1,3 @@
-# atlascorporations.github.io
+# AtlasCorporations
 
-Hello World!
+This is our Github website! Coming soon!
