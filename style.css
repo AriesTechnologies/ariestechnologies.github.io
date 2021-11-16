@@ -1,0 +1,20 @@
+html {
+	background-color : rgba(25, 25, 25);
+	color : rgba(255, 255, 255);
+}
+header {
+}
+h1 {
+	color : inherit;
+	text-align : center;
+}
+body {
+	background-image : url("AtlasCorpLogoV4.png");
+}
+p {
+	display : inline-flex;
+	color : inherit;
+}
+footer {
+	text-align : center;
+}
