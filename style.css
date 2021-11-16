@@ -10,6 +10,7 @@ h1 {
 }
 body {
 	background-image : url("AtlasCorpLogoV4.png");
+	background-repeat : no-repeat;
 }
 p {
 	display : inline-flex;
