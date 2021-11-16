@@ -1,14 +1,15 @@
 body {
- background-color : #323232;
+	background-color : #323232;
+	text-color : #FFFFFF;
 }
 
 h1 {
-  style : bold;
-  text-align : center;
+	style : bold;
+	text-align : center;
 }
 
 p {
- background-color : black; 
+	background-color : black; 
 }
 
 footer {
