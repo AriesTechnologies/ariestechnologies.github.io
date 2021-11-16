@@ -1,8 +1,13 @@
-body {
+default {
   background-color : black;
 }
 
 h1 {
+  background-color : black; 
   style : bold;
   text-align : center;
+}
+
+p {
+ background-color : black; 
 }
