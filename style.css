@@ -1,5 +1,5 @@
 body {
- background-color : #323232 
+ background-color : #323232;
 }
 
 h1 {
@@ -9,4 +9,8 @@ h1 {
 
 p {
  background-color : black; 
+}
+
+footer {
+	text-align : center;
 }
