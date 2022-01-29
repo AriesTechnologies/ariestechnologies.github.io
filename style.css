@@ -1,21 +1,151 @@
+@charset "UTF-8";
+
 html {
 	background-color : rgba(25, 25, 25);
 	color : rgba(255, 255, 255);
-}
-header {
-}
-h1 {
-	color : inherit;
 	text-align : center;
+	font-family: Lato;
 }
-body {
-	background-image : url("AtlasCorpLogoV4.png");
-	background-repeat : no-repeat;
+h1, h2, h3 {
+	text-decoration : underline;
 }
 p {
 	display : inline-flex;
-	color : inherit;
-}
-footer {
+	font-size : 18px;
 	text-align : center;
+}
+img:not(.pitem img) {
+	width : 75%;
+}
+a:link, a:visited {
+	color : rgba(255, 255, 255);
+	text-decoration : none;
+	cursor : auto;
+}
+a:link:hover, a:visited:hover {
+	color : rgba(200, 200, 200);
+}
+a:link:active, a:visited:active {
+	color : rgba(175, 175, 175);
+}
+code {
+	display : flex;
+	flex-direction : column;
+	align-items : left;
+}
+
+.navigation ul {
+	text-align : left;
+	width : 30%;
+	margin-bottom : 5px;
+}
+.navigation li {
+	display : inline;
+	padding-left : 10px;
+}
+.navigation a {
+	padding-right : 5px;
+}
+
+.masthead {
+	background-image : url("Images/AtlasCorpLogoV4.png");
+	background-repeat : no-repeat;
+	background-position : center top;
+	background-position-y : -170px;
+	background-size : 165%;
+	height : 530px;
+}
+.masthead h1 {
+	font-size : 64px;
+	margin-top : 10px;
+	margin-bottom : 5px;
+	padding-top : 150px;
+	text-decoration: none;
+}
+.masthead p {
+	font-size : 40px;
+	margin-top : 0px;
+	padding-top : 0px;
+}
+.masthead button {
+	background-color : white;
+	color : black;
+	padding : 14px 32px;
+	border : 0px;
+	border-radius : 32px;
+	font-size : 16px;
+	cursor : auto;
+}
+.masthead button:hover{
+	background-color : rgba(255, 255, 255, 0.8);
+	text-decoration : underline;
+}
+/* .masthead #top {
+	background-color : rgba(0,0,0,0);
+	color: white;
+	padding-top: 125px;
+}
+.masthead #top:hover {
+	text-decoration: none;
+} */
+
+.quote {
+	font-size : 20px;
+	font-style : italic;
+}
+
+.cp { /* column paragraph*/
+	display : inline-flex;
+	flex-direction : column;
+	align-items : center;
+}
+
+.portfolio {
+	display : flex;
+	margin-top : 10px;
+	justify-content : space-around;
+	flex-direction : column;
+}
+.prow {
+	display: flex;
+	justify-content : space-around;
+}
+.pitem {
+	display : flex;
+	/* background-image : url("AtlasCorpLogoV4.png"); */
+	width : 25%;
+	height : 225px;
+	/* background-size : 100%; */
+	justify-content : center;
+}
+.pitem:hover > img{
+	opacity: 0.3;
+ }
+.pitem:hover > .text {
+	visibility : visible;
+}
+
+.text {
+	visibility : hidden;
+	position : absolute;
+	justify-content : center;
+	align-self : center;
+	font-size : 24px;
+}
+.year {
+	font-size : 14px;
+	color : darkgrey;
+}
+.author {
+	font-size : 14px;
+	color : lightgrey;
+}
+.description {
+	font-size : 16px;
+	color : gold;
+}
+
+footer {
+	padding-top : 30px;
+	font-size : 18px;
 }
