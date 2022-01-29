@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta>
+		</meta>
+
+		<title>SpartanOS</title>
+		<link rel="icon" type="type/x-icon" href="../favicon.ico" />
+	</head>
+
+	<header>
+		<div class="navigation">
+			<ul>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="news.html">NEWS</a></li>
+				<li><a href="docs.html">DOCS</a></li>
+                <li><a href="../store/spartanos.html">STORE</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<body>
+		<h1>ACFS Docs<h1>
+		<img src="../Images/AtlasQDOS.png" />
+		<h2>Commands:</h2>
+		<div class="cp">
+			<p>add() - Adds a file, folder, or drive to the filesystem</p>
+			<p>add_user() - Adds a user profile</p>
+			<p>attr() - Adds, changes, or displays file attributes</p>
+			<p>back() - Moves back from a file, folder, or drive</p>
+			<p>change_user() - changes user to control file permissions</p>
+			<p>delete() - Deletes a file, folder, or drive</p>
+			<p>del_user() - Deletes a user profile from the filesystem</p>
+			<p>dir() - Displays directories in the current folder</p>
+			<p>help() - Displays the list of commands</p>
+			<p>move() - Moves a file or folder to a new directory</p>
+			<p>open() - Opens a file, folder, or drive</p>
+			<p>quit() - Saves and exits the filesystem</p>
+			<p>rename() - Renames a file, folder, or drive</p>
+			<p>version() - Displays the version of the Filesystem</p>
+		</div>
+		<h2>Command Documentation:</h2>
+		<dl>
+			<dt>add(file, enter_new=False)</dt>
+      		<dd>This command takes a file object, this object can be (File, Folder, SysFolder, Drive, Audio, or Picture)</dd>
+			<dt>add_user(name, admin=0)</dt>
+     		<dd>This command takes a string that represents the name of the user and can take an integer that represents the access of the user<dd>
+			<dt>assoc(file_ext, assoc)</dt>
+     		<dd>This command takes a string that represents the file extension and a string that represents the application association.</dd>
+			<dt>attr(name="", value="", filename="")</dt>
+     		<dd>This command can take a string that represents the name of the attribute you want to change or add, secondly it can take a value that is associated with the name of the attribute, lastly it can take a filename which is the file you would like to add or change the attribute on. If none of these are put in the command then it will display the attribute list of that file.</dd>
+			<dt>back(index=-1)</dt>
+			<dd>This command can take an integer that represents how many directories it should go back.</dd>
+			<dt>change_user(name)</dt>
+			<dd>This command takes a string to represent the user folder.</dd>
+			<dt>delete(name)</dt>
+			<dd>The delete command takes a string that represents the name of the file you want to delete.</dd>
+			<dt>del_user(name)</dt>
+			<dd>This command takes a string that represents the name of the user you are deleting.</dd>
+			<dt>dir()</dt>
+			<dd>This command displays the files in a directory. You shouldn't need to use this since AtlasQDOS does this automatically.</dd>
+			<dt>help(cmd="")</dt>
+			<dd>This command can take a string that represents the command you want help with.</dd>
+			<dt>move(filename, directory)</dt>
+			<dd>This command takes a string that represents the name of the file that you would like to move, it also takes directory which represents the path to the new file location.</dd>
+			<dt>open(filename)</dt>
+			<dd>This command takes a string that represents the name of the file object you would like to open. If you are opening a file then filename takes a string that represents the type of opener used. The openers are w, a, r (writing, appending, reading).</dd>
+			<dt>quit()</dt>
+			<dd>This command saves and quits AtlasQDOS. This is important because if you don't do this before you close the program some changes may not be saved properly.</dd>
+			<dt>rename(filename, new)</dt>
+			<dd>This command takes a string that represents the name of the file you would like to change the name of. It also takes a string that represents the new name of the file.</dd>
+			<dt>version()</dt>
+			<dd>This command displays the version of AtlasQDOS</dd>
+		</dl>
+		<hr/>
+	</body>
+
+	<footer>
+		<div class="cp">
+			<a href="">↑ Back to Top</a>
+			<p>© 2018-2022 AtlasCorporations LLC</p>
+		</div>
+	</footer>
+</html>
