@@ -33,6 +33,36 @@ code {
 	flex-direction : column;
 	align-items : left;
 }
+button {
+	background-color : white;
+	color : black;
+	padding : 14px 32px;
+	border : 0px;
+	border-radius : 32px;
+	font-size : 16px;
+	cursor : auto;
+}
+button:hover{
+	background-color : rgba(255, 255, 255, 0.8);
+	text-decoration : underline;
+}
+dl {
+	padding-top : 20px;
+	text-align : left;
+}
+dt {
+	font-size : 18px;
+}
+dd {
+	margin-bottom : 20px;
+}
+footer {
+	display : flex;
+	flex-direction : column;
+	padding-top : 10px;
+	font-size : 18px;
+	align-items : center;
+}
 
 .navigation ul {
 	text-align : left;
@@ -67,28 +97,6 @@ code {
 	margin-top : 0px;
 	padding-top : 0px;
 }
-.masthead button {
-	background-color : white;
-	color : black;
-	padding : 14px 32px;
-	border : 0px;
-	border-radius : 32px;
-	font-size : 16px;
-	cursor : auto;
-}
-.masthead button:hover{
-	background-color : rgba(255, 255, 255, 0.8);
-	text-decoration : underline;
-}
-/* .masthead #top {
-	background-color : rgba(0,0,0,0);
-	color: white;
-	padding-top: 125px;
-}
-.masthead #top:hover {
-	text-decoration: none;
-} */
-
 .quote {
 	font-size : 20px;
 	font-style : italic;
@@ -99,6 +107,9 @@ code {
 	flex-direction : column;
 	align-items : center;
 }
+.cp button {
+	margin : 20px;
+}
 
 .portfolio {
 	display : flex;
@@ -108,14 +119,15 @@ code {
 }
 .prow {
 	display: flex;
-	justify-content : space-around;
+	justify-content : left;
 }
 .pitem {
 	display : flex;
 	/* background-image : url("AtlasCorpLogoV4.png"); */
-	width : 25%;
+	width : 33%;
 	height : 225px;
 	/* background-size : 100%; */
+	padding : 2px;
 	justify-content : center;
 }
 .pitem:hover > img{
@@ -143,9 +155,4 @@ code {
 .description {
 	font-size : 16px;
 	color : gold;
-}
-
-footer {
-	padding-top : 30px;
-	font-size : 18px;
 }

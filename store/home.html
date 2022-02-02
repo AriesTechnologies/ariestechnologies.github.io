@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta>
 		</meta>
 
@@ -9,28 +9,31 @@
 		<link rel="icon" type="type/x-icon" href="../favicon.ico" />
 	</head>
 
-	<header>
-		<div class="navigation">
-			<ul>
-				<li><a href="home.html">HOME</a></li>
-				<li><a href="apps.html">APPS</a></li>
-				<li><a href="spartanos.html">SPARTANOS</a></li>
-			</ul>
-		</div>
-	</header>
-
 	<body>
-		<div class="masthead">
-			<h1 class="Title">AtlasStore</h1>
-			<p>The Home for AtlasCorporations Apps</p>
+		<div class="page">
+			<div class="navigation">
+				<label onclick="window.location.href='home.html'">
+					<img src="../Images/icons/dashboard.svg" />
+					<a>HOME</a>
+				</label>
+				<label onclick="window.location.href='apps.html'">
+					<img src="../Images/icons/game.svg" />
+					<a>APPS</a>
+				</label>
+				<label onclick="window.location.href='spartanos.html'">
+					<img src="../Images/icons/apps.svg" />
+					<a>SPARTANOS</a>
+			</div>
+			<div class="cp" id="title">
+				<h1>AtlasStore</h1>
+				<h2>The Home for AtlasCorporations Apps</h2>
+			</div>
 		</div>
+		<hr/>
 	</body>
 
 	<footer>
-		<hr/>
-		<div class="cp">
-			<a href="">↑ Back to Top</a>
-			<p>© 2018-2022 AtlasCorporations LLC</p>
-		</div>
+		<!-- <a href="">↑ Back to Top</a> -->
+		<p>© 2018-2022 AtlasCorporations LLC</p>
 	</footer>
 </html>
