@@ -78,8 +78,8 @@ footer {
 	align-items : center;
 }
 .navigation img {
-	width : 3%;
-	height : 3%;
+	/* width : 3%;
+	height : 3%; */
 	max-width : 3%;
 	max-height : 3%;
 }
