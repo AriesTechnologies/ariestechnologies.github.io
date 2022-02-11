@@ -91,13 +91,11 @@ footer {
 }
 
 .masthead {
-	background-image : url("Images/AriesTech.png");
+	background-image : url("../Images/SpartanOS.png");
+	background-position : center;
+	background-size : 100%;
 	background-repeat : no-repeat;
-	background-position : center top;
-	background-position-y : -170px;
-	background-size : 165%;
 	height : 86vh;
-	font-family : Audiowide;
 }
 .masthead h1 {
 	font-size : 64px;

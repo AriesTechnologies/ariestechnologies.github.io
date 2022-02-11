@@ -4,7 +4,7 @@ html {
 	box-sizing: border-box;
 	background-color : rgba(25, 25, 25);
 	color : rgba(255, 255, 255);
-	font-family: Lato;
+	font-family: Assistant;
 }
 h1 {
 	font-size : 64px;
@@ -42,7 +42,7 @@ footer {
 	background-position : center top;
 	background-position-y : -170px;
 	background-size : 165%;
-	height : 530px;
+	height : 86vh;
 	padding-bottom : 5px;
 }
 #title {
