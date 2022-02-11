@@ -23,10 +23,20 @@ button {
 }
 p, a, footer {
 	font-size : 18px;
-	/* text-align : center; */
 }
 a, footer {
 	text-align : center;
+}
+a:link, a:visited {
+	color : rgba(255, 255, 255);
+	text-decoration : none;
+	cursor : auto;
+}
+a:link:hover, a:visited:hover {
+	color : rgba(200, 200, 200);
+}
+a:link:active, a:visited:active {
+	color : rgba(175, 175, 175);
 }
 footer {
 	display : flex;
