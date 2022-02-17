@@ -37,8 +37,8 @@ code {
 	align-items : left;
 }
 button {
-	background-color : white;
-	color : black;
+	background-color : rgb(125,47,48);
+	color : white;
 	padding : 14px 32px;
 	border : 0px;
 	border-radius : 32px;
@@ -46,7 +46,7 @@ button {
 	cursor : auto;
 }
 button:hover{
-	background-color : rgba(255, 255, 255, 0.8);
+	background-color : rgba(125,47,48, 0.9);
 	text-decoration : underline;
 }
 /* #top {
@@ -91,14 +91,16 @@ footer {
 }
 
 .masthead {
-	background-image : url("../Images/SpartanOS.png");
+	background-image : url("../Images/SpartanOS/2024/SpartanOS2024.png");
+	background-color : rgba(0,0,0,0.2);
 	background-position : center;
 	background-size : 100%;
 	background-repeat : no-repeat;
-	height : 86vh;
+	height : 110vh;
+	background-blend-mode : darken;
 }
 .masthead h1 {
-	font-size : 64px;
+	font-size : 48px;
 	margin-top : 10px;
 	margin-bottom : 5px;
 	padding-top : 150px;
@@ -109,6 +111,23 @@ footer {
 	margin-top : 0px;
 	padding-top : 0px;
 }
+.masthead button {
+	background-color : rgb(68,103,145);
+	color : white;
+	padding : 14px 32px;
+	border : 0px;
+	border-radius : 32px;
+	font-size : 20px;
+	cursor : auto;
+}
+.masthead button:hover{
+	background-color : rgba(68,103,145, 0.9);
+	text-decoration : underline;
+}
+.masthead .quote {
+	font-size : 30px;
+}
+
 .quote {
 	font-size : 20px;
 	font-style : italic;
@@ -167,4 +186,14 @@ footer {
 .description {
 	font-size : 16px;
 	color : gold;
+}
+
+.title {
+	font-size : 36px;
+	font-weight : bold;
+	margin : 5px;
+	/* margin-top : 10px; */
+	/* margin-bottom : 5px; */
+	/* padding-top : 150px; */
+	/* text-decoration: none; */
 }
