@@ -7,7 +7,7 @@ document.write(`
          <a href="spartanos/acfs.html" target="_blank" rel="noopener noreferrer">ACFS</a>
          <a href="otherprojects.html">OTHER PROJECTS</a>
          <a href="store/home.html" target="_blank" rel="noopener noreferrer">STORE</a>
-         <a href="support.html" target="_blank" rel="noopener noreferrer">SUPPORT</a>
+         <a href="support.html">SUPPORT</a>
       </div>
    </header>
    `);
