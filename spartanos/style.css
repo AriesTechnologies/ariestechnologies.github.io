@@ -94,7 +94,7 @@ footer {
 .masthead {
 	background-image : url("../Images/SpartanOS/2024/SpartanOS2024.png");
 	background-color : rgba(0,0,0,0.2);
-	background-position : center top;
+	/* background-position : center top; */
 	background-size : 100%;
 	background-repeat : no-repeat;
 	height : 110vh;
