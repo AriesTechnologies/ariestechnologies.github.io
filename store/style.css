@@ -104,11 +104,12 @@ footer {
 .masthead {
 	display : flex;
 	flex-direction : row;
-	background-image : url("../Images/AriesTech.png");
+	background-image : url("../Images/AriesTechNoBG.png");
 	background-repeat : no-repeat;
-	background-position : center top;
+	background-position : center;
 	background-position-y : -170px;
 	background-size : 165%;
+	background-attachment : fixed;
 	height : 86vh;
 }
 
