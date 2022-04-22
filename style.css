@@ -229,6 +229,12 @@ footer {
 /* CSS for small screens (phones, tablets) */
 
 @media only screen and (max-width: 1000px) {
+	.masthead h1 {
+		font-size : 52px;
+	}
+	#quote {
+		font-size : 32px;
+	}
 	.navigation {
 		display : flex;
 		flex-direction : column;
@@ -238,9 +244,12 @@ footer {
 		align-self : left;
 		text-align : left; */
 	}
-
+	.navigation a {
+		padding : 3px;
+	}
 	.navigation img {
 		max-width : 5%;
 		max-height : 5%;
+		padding : 3px;
 	}
 }

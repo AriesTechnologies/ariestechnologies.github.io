@@ -279,7 +279,9 @@ footer {
 		align-self : left;
 		text-align : left; */
 	}
-
+	.navigation a {
+		padding : 3px;
+	}
 	.navigation img {
 		max-width : 5%;
 		max-height : 5%;
