@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
+/* Standard CSS, not media-based */
 html {
 	box-sizing: border-box;
-	background-color : rgba(25, 25, 25);
-	color : rgba(255, 255, 255);
-	text-align : center;
 	font-family: Assistant;
 	/* padding : 5px; */
+}
+body {
+	text-align : center;
 }
 h1, h2, h3 {
 	text-decoration : underline;
@@ -21,15 +22,8 @@ img:not(.pitem img, .navigation img) {
 	width : 75%;
 }
 a:link, a:visited {
-	color : rgba(255, 255, 255);
 	text-decoration : none;
 	cursor : auto;
-}
-a:link:hover, a:visited:hover {
-	color : rgba(200, 200, 200);
-}
-a:link:active, a:visited:active {
-	color : rgba(175, 175, 175);
 }
 code {
 	display : flex;
@@ -37,8 +31,6 @@ code {
 	align-items : left;
 }
 button {
-	background-color : white;
-	color : black;
 	padding : 14px 32px;
 	border : 0px;
 	border-radius : 32px;
@@ -46,7 +38,6 @@ button {
 	cursor : auto;
 }
 button:hover{
-	background-color : rgba(255, 255, 255, 0.8);
 	text-decoration : underline;
 }
 /* #top {
@@ -92,7 +83,6 @@ footer {
 }
 
 .masthead {
-	background-color : rgb(0,0,0);
 	background-image : url("Images/AriesTechLogo.png");
 	background-repeat : no-repeat;
 	background-position : center;
@@ -146,7 +136,7 @@ footer {
 	padding : 2px;
 	justify-content : center;
 }
-.pitem:hover > img{
+.pitem:hover > img {
 	opacity: 0.3;
  }
 .pitem:hover > .text {
@@ -162,13 +152,95 @@ footer {
 }
 .year {
 	font-size : 14px;
-	color : darkgrey;
 }
 .author {
 	font-size : 14px;
-	color : lightgrey;
 }
 .description {
 	font-size : 16px;
 	color : gold;
+}
+
+/* CSS for dark mode */
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color : rgba(25, 25, 25);
+		color : white;
+	}
+	a:link, a:visited {
+		color : white;
+	}
+	a:link:hover, a:visited:hover {
+		color : rgba(200, 200, 200);
+	}
+	a:link:active, a:visited:active {
+		color : rgba(175, 175, 175);
+	}
+	button {
+		background-color : white;
+		color : black;
+	}
+	button:hover{
+		background-color : rgba(255, 255, 255, 0.8);
+	}
+	.year {
+		color : darkgrey;
+	}
+	.author {
+		color : lightgrey;
+	}
+}
+
+/* CSS for light mode */
+
+@media (prefers-color-scheme: light) {
+	html {
+		background-color : rgb(219,219,217);
+		color: black;
+	}
+	a:link, a:visited {
+		color : black;
+	}
+	a:link:hover, a:visited:hover {
+		color : rgba(55, 55, 55);
+	}
+	a:link:active, a:visited:active {
+		color : rgba(80, 80, 80);
+	}
+	button {
+		background-color : black;
+		color : white;
+	}
+	button:hover{
+		background-color : rgba(0, 0, 0, 0.8);
+	}
+	/* .navigation {
+		background-color : rgb(205,205,205);
+	} */
+	.year {
+		color : rgb(15,15,15);
+	}
+	.author {
+		color : rgb(30,30,30);
+	}
+}
+
+/* CSS for small screens (phones, tablets) */
+
+@media only screen and (max-width: 1000px) {
+	.navigation {
+		display : flex;
+		flex-direction : column;
+		/* align-content : left;
+		align-items : left;
+		justify-content : left;
+		align-self : left;
+		text-align : left; */
+	}
+
+	.navigation img {
+		max-width : 5%;
+		max-height : 5%;
+	}
 }
