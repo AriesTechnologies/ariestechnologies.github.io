@@ -229,6 +229,9 @@ footer {
 	.masthead {
 		background-color : rgba(219,219,217,0.2);
 	}
+	.masthead h1 {
+		color : white;
+	}
 	.quote {
 		color : white;
 	}
