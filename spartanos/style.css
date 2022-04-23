@@ -28,7 +28,6 @@ code {
 	align-items : left;
 }
 button {
-	background-color : rgb(125,47,48);
 	color : white;
 	padding : 14px 32px;
 	border : 0px;
@@ -37,16 +36,9 @@ button {
 	cursor : auto;
 }
 button:hover{
-	background-color : rgba(125,47,48, 0.9);
+	/* background-color : rgba(68,103,145, 0.9); */
 	text-decoration : underline;
 }
-/* #top {
-	background-color : rgba(255, 255, 255, 0.0);
-	background-image : url("Images/icons/more.svg");
-	background-repeat : no-repeat;
-	background-position : center;
-	background-size : 150%;
-} */
 dl {
 	padding-top : 20px;
 	text-align : left;
@@ -83,8 +75,9 @@ footer {
 }
 
 .masthead {
-	background-image : url("../Images/SpartanOS/2024/SpartanOS2024.png");
-	background-size : 100%;
+	background-image : url("../Images/icons/SpartanOS.png");
+	background-size : 55%;
+	background-position : center;
 	background-repeat : no-repeat;
 	height : 110vh;
 	background-blend-mode : darken;
@@ -102,7 +95,6 @@ footer {
 	padding-top : 0px;
 }
 .masthead button {
-	background-color : rgb(68,103,145);
 	color : white;
 	padding : 14px 32px;
 	border : 0px;
@@ -111,7 +103,7 @@ footer {
 	cursor : auto;
 }
 .masthead button:hover{
-	background-color : rgba(68,103,145, 0.9);
+	/* background-color : rgba(68,103,145, 0.9); */
 	text-decoration : underline;
 }
 .masthead .quote {
@@ -215,7 +207,7 @@ footer {
 	}
 }
 
-/* CSS for ligh mode */
+/* CSS for light mode */
 
 @media (prefers-color-scheme : light) {
 	html {
@@ -223,7 +215,7 @@ footer {
 		color: black;
 	}
 	h1 {
-		color : white;
+		color : black;
 	}
 	a:link, a:visited {
 		color : black;
