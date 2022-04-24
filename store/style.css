@@ -1,67 +1,25 @@
 @charset "UTF-8";
+@import "../style.css";
 
-html {
-	box-sizing: border-box;
-	font-family: Assistant;
-}
-h1, h2, h3 {
-	text-decoration : underline;
-}
-img:not(.pitem img, .navigation img) {
-	width : 75%;
-}
-button {
-	padding : 14px 32px;
-	border : 0px;
-	border-radius : 32px;
-	font-size : 16px;
-	cursor : auto;
-}
-button:hover{
-	text-decoration : underline;
+body {
+	text-align : none;
 }
 p {
-	margin-top : 5px;
-}
-p, a, footer {
-	font-size : 18px;
-}
-a, footer {
-	text-align : center;
-}
-a:link, a:visited {
-	text-decoration : none;
-	cursor : auto;
+	display : block;
+	text-align : none;
+	justify-content : none;
+	margin-top : 10px;
 }
 footer {
-	display : flex;
-	flex-direction : column;
-	align-items : center;
-}
-
-#title {
-	display : flex;
-	flex-direction: column;
-	width : 100%;
-	justify-content : center;
-	padding-left : 20px;
-}
-#title h1 {
-	font-size : 64px;
-	margin-top : 10px;
-	margin-bottom : 5px;
-	text-decoration: none;
-	/* text-align : center; */
-}
-#title h2 {
-	font-size : 40px;
-	margin-top : 0px;
-	padding-top : 0px;
-	text-decoration: none;
+	text-align : center;
 }
 
 .navigation {
-	width : 8%;
+	display : block;
+	flex-direction : none;
+	justify-content : none;
+	max-height : none;
+	width : 7.5%;
 	height : 100vh;
 	font-size : 16px;
 	text-align : center;
@@ -76,6 +34,8 @@ footer {
 .navigation img {
 	width : 55%;
 	align-self : center;
+	max-width : none;
+	max-height : none;
 }
 .navigation a {
 	font-size : 14px;
@@ -88,73 +48,37 @@ footer {
 .masthead {
 	display : flex;
 	flex-direction : row;
-	background-image : url("../Images/AriesTechLogo.png");
-	background-repeat : no-repeat;
-	background-position : center;
-	background-size : 50%;
-	height : 86vh;
+	font-family : Assistant;
+	max-height : 100%;
+	background-blend-mode : normal;
 }
-
-.cp { /* column paragraph*/
+#title {
 	display : flex;
-	flex-direction : column;
-	align-items : center;
+	flex-direction: column;
+	justify-content : center;
+	padding-left : 20px;
 }
-.cp button {
-	margin : 20px;
+#title h1, #title h2 {
+	text-align : left;
+	padding-top : 0px;
+	text-decoration: none;
+}
+#title h2 {
+	font-size : 40px;
+	margin-top : 0px;
 }
 
 .portfolio {
-	display : flex;
-	margin-top : 10px;
-	flex-direction : column;
-}
-.prow {
-	display: flex;
+	align : center;
 	justify-content : left;
-}
-.pitem {
-	display : flex;
-	width : 33%;
-	height : 225px;
-	padding : 2px;
-	justify-content : center;
-}
-.pitem:hover > img{
-	opacity: 0.3;
- }
-.pitem:hover > .text {
-	visibility : visible;
 }
 .pimg {
 	width : 100%;
 }
 
-.text {
-	visibility : hidden;
-	position : absolute;
-	align-self : center;
-	text-align : center;
-	font-size : 24px;
-}
-.year {
-	font-size : 14px;
-}
-.author {
-	font-size : 14px;
-}
-.description {
-	font-size : 16px;
-	color : gold;
-}
-
 /* CSS for dark mode */
 
 @media (prefers-color-scheme : dark) {
-	html {
-		background-color : rgba(25, 25, 25);
-		color : white;
-	}
 	button {
 		background-color : white;
 		color : black;
@@ -162,15 +86,7 @@ footer {
 	button:hover{
 		background-color : rgba(255, 255, 255, 0.8);
 	}
-	a:link, a:visited {
-		color : white;
-	}
-	a:link:hover, a:visited:hover {
-		color : rgba(200, 200, 200);
-	}
-	a:link:active, a:visited:active {
-		color : rgba(175, 175, 175);
-	}
+
 	.navigation {
 		background-color : rgb(35,35,35);
 	}
@@ -180,21 +96,11 @@ footer {
 	.masthead {
 		background-color : rgb(0,0,0);
 	}
-	.year {
-		color : darkgrey;
-	}
-	.author {
-		color : lightgrey;
-	}
 }
 
 /* CSS for light mode */
 
 @media (prefers-color-scheme : light) {
-	html {
-		background-color : rgb(219,219,217);
-		color : black;
-	}
 	button {
 		background-color : black;
 		color : white;
@@ -202,15 +108,7 @@ footer {
 	button:hover{
 		background-color : rgba(255, 255, 255, 0.8);
 	}
-	a:link, a:visited {
-		color : black;
-	}
-	a:link:hover, a:visited:hover {
-		color : rgba(55, 55, 55);
-	}
-	a:link:active, a:visited:active {
-		color : rgba(80, 80, 80);
-	}
+
 	.navigation {
 		background-color : rgb(202,202,200);
 	}
@@ -219,8 +117,5 @@ footer {
 	}
 	.masthead {
 		background-color : rgb(219,219,217);
-	}
-	.author {
-		color : rgb(35,35,35);
 	}
 }

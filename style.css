@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 /* Standard CSS, not media-based */
+
 html {
 	box-sizing: border-box;
 	font-family: Assistant;
-	/* padding : 5px; */
 }
 body {
 	text-align : center;
@@ -40,13 +40,6 @@ button {
 button:hover{
 	text-decoration : underline;
 }
-/* #top {
-	background-color : rgba(255, 255, 255, 0.0);
-	background-image : url("Images/icons/more.svg");
-	background-repeat : no-repeat;
-	background-position : center;
-	background-size : 150%;
-} */
 dl {
 	padding-top : 20px;
 	text-align : left;
@@ -72,7 +65,6 @@ footer {
 	display : flex;
 	flex-direction : row;
 	width : 100%;
-	min-height : 3%;
 	max-height : 10%;
 	justify-content : space-around;
 	align-items : center;
@@ -87,6 +79,7 @@ footer {
 	background-repeat : no-repeat;
 	background-position : center;
 	background-size : 50%;
+	background-blend-mode : darken;
 	height : 86vh;
 	max-height : 530px;
 	font-family : Audiowide;
@@ -129,10 +122,8 @@ footer {
 }
 .pitem {
 	display : flex;
-	/* background-image : url("AtlasCorpLogoV4.png"); */
 	width : 33%;
 	height : 225px;
-	/* background-size : 100%; */
 	padding : 2px;
 	justify-content : center;
 }
@@ -238,11 +229,6 @@ footer {
 	.navigation {
 		display : flex;
 		flex-direction : column;
-		/* align-content : left;
-		align-items : left;
-		justify-content : left;
-		align-self : left;
-		text-align : left; */
 	}
 	.navigation a {
 		padding : 3px;
