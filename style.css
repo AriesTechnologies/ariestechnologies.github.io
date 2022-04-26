@@ -221,10 +221,10 @@ footer {
 
 @media only screen and (max-width: 1000px) {
 	.masthead h1 {
-		font-size : 52px;
+		font-size : 3em; /*52px;*/
 	}
 	#quote {
-		font-size : 32px;
+		font-size : 1.5em/*32px;*/
 	}
 	.navigation {
 		display : flex;
