@@ -74,6 +74,20 @@ footer {
 	max-height : 2.5%;
 }
 
+.topnav {
+	display : none;
+}
+.topnav #myLinks {
+  display: inherit;
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
 .masthead {
 	background-image : url("Images/AriesTechLogo.png");
 	background-repeat : no-repeat;
@@ -227,15 +241,31 @@ footer {
 		font-size : 1.5em/*32px;*/
 	}
 	.navigation {
-		display : flex;
-		flex-direction : column;
+		display : none;
+		/* display : flex;
+		flex-direction : column; */
 	}
-	.navigation a {
-		padding : 3px;
+	.navigation a, .navigation img {
+		display : none;
 	}
-	.navigation img {
-		max-width : 5%;
-		max-height : 5%;
-		padding : 3px;
+
+	.topnav {
+		display : block;
+		overflow: hidden;
+		background-color: rgb(40,40,40);
+		position: relative;
+	}
+	.topnav #links {
+		display: none;
+	}
+	.topnav a {
+		display: block;
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.topnav a.icon {
+		display: block;
 	}
 }
