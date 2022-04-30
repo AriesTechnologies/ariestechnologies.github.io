@@ -40,6 +40,12 @@ button {
 	.masthead {
 		background-color : rgba(0,0,0,0.2);
 	}
+	.topnav {
+		background-color: rgb(40,40,40);
+	}
+	.topnav a {
+		color: white;
+	}
 }
 
 /* CSS for light mode */
@@ -56,5 +62,12 @@ button {
 	}
 	.quote {
 		color : white;
+	}
+
+	.topnav {
+		background-color: rgb(200,200,200);
+	}
+	.topnav a {
+		color: black;
 	}
 }

@@ -189,6 +189,12 @@ footer {
 	button:hover{
 		background-color : rgba(255, 255, 255, 0.8);
 	}
+	.topnav {
+		background-color: rgb(40,40,40);
+	}
+	.topnav a {
+		color: white;
+	}
 	.year {
 		color : darkgrey;
 	}
@@ -223,6 +229,12 @@ footer {
 	/* .navigation {
 		background-color : rgb(205,205,205);
 	} */
+	.topnav {
+		background-color: rgb(200,200,200);
+	}
+	.topnav a {
+		color: black;
+	}
 	.year {
 		color : rgb(15,15,15);
 	}
@@ -234,16 +246,8 @@ footer {
 /* CSS for small screens (phones, tablets) */
 
 @media only screen and (max-width: 1000px) {
-	.masthead h1 {
-		font-size : 3em; /*52px;*/
-	}
-	#quote {
-		font-size : 1.5em/*32px;*/
-	}
 	.navigation {
 		display : none;
-		/* display : flex;
-		flex-direction : column; */
 	}
 	.navigation a, .navigation img {
 		display : none;
@@ -252,7 +256,6 @@ footer {
 	.topnav {
 		display : block;
 		overflow: hidden;
-		background-color: rgb(40,40,40);
 		position: relative;
 	}
 	.topnav #links {
@@ -260,12 +263,17 @@ footer {
 	}
 	.topnav a {
 		display: block;
-		color: white;
-		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 17px;
 	}
 	.topnav a.icon {
 		display: block;
+	}
+	
+	.masthead h1 {
+		font-size : 3em; /*52px;*/
+	}
+	#quote {
+		font-size : 1.5em/*32px;*/
 	}
 }
