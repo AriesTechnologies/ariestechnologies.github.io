@@ -192,6 +192,9 @@ footer {
 	.topnav {
 		background-color: rgb(40,40,40);
 	}
+	.topnav:hover {
+		background-color: rgb(35,35,35);
+	}
 	.topnav a {
 		color: white;
 	}
@@ -232,6 +235,9 @@ footer {
 	.topnav {
 		background-color: rgb(200,200,200);
 	}
+	.topnav:hover {
+		background-color: rgb(190,190,190);
+	}
 	.topnav a {
 		color: black;
 	}
@@ -269,7 +275,7 @@ footer {
 	.topnav a.icon {
 		display: block;
 	}
-	
+
 	.masthead h1 {
 		font-size : 3em; /*52px;*/
 	}
