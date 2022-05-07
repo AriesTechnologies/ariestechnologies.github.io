@@ -7,19 +7,21 @@ html {
 	font-family: Assistant;
 }
 body {
+	display : flex;
+	flex-direction : column;
 	text-align : center;
 }
 h1, h2, h3 {
 	text-decoration : underline;
 }
 p {
-	display : flex;
 	font-size : 18px;
 	text-align : center;
 	justify-content : center;
 }
-img:not(.pitem img, .navigation img) {
+img:not(.pitem img, .navigation img, .topnav img) {
 	width : 75%;
+	align-self : center;
 }
 a:link, a:visited {
 	text-decoration : none;
@@ -36,6 +38,7 @@ button {
 	border-radius : 32px;
 	font-size : 16px;
 	cursor : auto;
+	align-self : center;
 }
 button:hover{
 	text-decoration : underline;
@@ -53,6 +56,9 @@ dt {
 dd {
 	margin-bottom : 20px;
 }
+hr {
+	width : 100%;
+}
 footer {
 	display : flex;
 	flex-direction : column;
@@ -64,10 +70,10 @@ footer {
 .navigation {
 	display : flex;
 	flex-direction : row;
-	width : 100%;
 	max-height : 10%;
 	justify-content : space-around;
 	align-items : center;
+	margin-bottom : 5px;
 }
 .navigation img {
 	max-width : 2.5%;
@@ -81,11 +87,11 @@ footer {
   display: inherit;
 }
 .topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 .masthead {
@@ -100,7 +106,7 @@ footer {
 }
 .masthead h1 {
 	font-size : 64px;
-	margin-top : 10px;
+	margin-top : 20px;
 	margin-bottom : 5px;
 	padding-top : 150px;
 	text-decoration: none;
@@ -115,20 +121,9 @@ footer {
 	font-style : italic;
 }
 
-.cp { /* column paragraph*/
-	display : flex;
-	flex-direction : column;
-	align-items : center;
-}
-.cp button {
-	margin : 20px;
-}
-
 .portfolio {
-	display : flex;
 	margin-top : 10px;
 	justify-content : space-around;
-	flex-direction : column;
 }
 .prow {
 	display: flex;
@@ -151,7 +146,6 @@ footer {
 .text {
 	visibility : hidden;
 	position : absolute;
-	justify-content : center;
 	align-self : center;
 	font-size : 24px;
 }
@@ -164,6 +158,46 @@ footer {
 .description {
 	font-size : 16px;
 	color : gold;
+}
+
+/* CSS for small screens (phones, tablets) */
+
+@media only screen and (max-width: 1000px) {
+	.navigation {
+		display : none;
+	}
+
+	.topnav {
+		display : block;
+		overflow: hidden;
+		position: relative;
+		text-align : left;
+		/* height : 8%; */
+	}
+	.topnav #links {
+		display: none;
+	}
+	.topnav a {
+		display: block;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	/* .topnav a.icon {
+		display: block;
+	} */
+
+	.masthead h1 {
+		font-size : 3em; /*52px;*/
+	}
+	#quote {
+		font-size : 1.5em/*32px;*/
+	}
+
+	/* Style the active link (or home/logo) */
+	.active {
+	  width : 8%;
+	  height : 8%;
+	}
 }
 
 /* CSS for dark mode */
@@ -246,40 +280,5 @@ footer {
 	}
 	.author {
 		color : rgb(30,30,30);
-	}
-}
-
-/* CSS for small screens (phones, tablets) */
-
-@media only screen and (max-width: 1000px) {
-	.navigation {
-		display : none;
-	}
-	.navigation a, .navigation img {
-		display : none;
-	}
-
-	.topnav {
-		display : block;
-		overflow: hidden;
-		position: relative;
-	}
-	.topnav #links {
-		display: none;
-	}
-	.topnav a {
-		display: block;
-		text-decoration: none;
-		font-size: 17px;
-	}
-	.topnav a.icon {
-		display: block;
-	}
-
-	.masthead h1 {
-		font-size : 3em; /*52px;*/
-	}
-	#quote {
-		font-size : 1.5em/*32px;*/
 	}
 }

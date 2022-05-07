@@ -12,7 +12,8 @@ document.write(`
 
       <!-- For Mobile -->
       <div class="topnav">
-         <!--<img src="Images/icons/AriesTech.svg" onclick="window.location.href='index.html'" />-->
+         <!--<img src="Images/icons/AriesTech.svg" class="active" />-->
+         <!--<a href="#home" class="active">LOGO</a>-->
          <a href="javascript:void(0);" id="menu" class="icon">
             <i class="fa fa-bars"></i>
          </a>

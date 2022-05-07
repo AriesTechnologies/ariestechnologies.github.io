@@ -23,6 +23,7 @@ button {
 .masthead button {
 	color : white;
 	font-size : 20px;
+	margin-top : 20px;
 }
 .masthead .quote {
 	font-size : 30px;
