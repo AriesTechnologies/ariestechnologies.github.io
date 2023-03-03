@@ -5,13 +5,26 @@
 
 		<title>AriesTechnologies LLC</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="icon" type="type/x-icon" href="favicon.ico" />
+		<link rel="icon" type="type/x-icon" href="favicon.ico">
+		
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 
 	<!-- Script to load nav header -->
-	<script src="header.js"></script>
+	<!-- <script src="header.js"></script>-->
+	<header>
+	</header>
 
-	<body oncontextmenu="return false;">
+	<body> <!--oncontextmenu="return false;"-->
+		<div id="nav-placeholder"></div>
+		
+		<script>
+			$(function(){
+				$("#nav-placeholder").load("nav.html");
+				});
+		</script>		
+		
+		
 		<div class="masthead">
 			<h1>AriesTechnologies</h1>
 			<p><i>"Technology for a new age."</i></p>
@@ -20,7 +33,7 @@
 			<!-- <button type="button" id="top" onclick="window.location.href='index.html'"></button> -->
 		</div>
 
-		<p class="quote">"We build the technology for a new age." - Brendan Beard</p>
+		<i>"We build the technology for a new age." - Brendan Beard</i>
 		<p>AriesTechnologies is committed to building technologies for a new age as it says in our motto. We do this by creating applications, online tools and other immersive technology
 to help with everyday life, your entertainment, and scientific research.</p>
 

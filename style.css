@@ -19,6 +19,9 @@ p {
 	text-align : center;
 	justify-content : center;
 }
+i, em {
+	font-size : 20px;
+}
 img:not(.pitem img, .navigation img, .topnav img) {
 	width : 75%;
 	align-self : center;
@@ -116,11 +119,6 @@ footer {
 	margin-top : 0px;
 	padding-top : 0px;
 }
-.quote {
-	font-size : 20px;
-	font-style : italic;
-}
-
 .portfolio {
 	margin-top : 10px;
 	justify-content : space-around;
@@ -163,7 +161,7 @@ footer {
 /* CSS for small screens (phones, tablets) */
 
 @media only screen and (max-width: 1000px) {
-	.navigation {
+	nav {
 		display : none;
 	}
 
