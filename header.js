@@ -14,6 +14,7 @@ document.write(`
             <a href="support.html">SUPPORT</a>
          </div>
       </div>
+   </header>
    `);
 
 document.addEventListener('DOMContentLoaded', function () {
