@@ -15,7 +15,7 @@ h1, h2, h3 {
 	text-decoration : underline;
 }
 p {
-	font-size : 18px;
+	font-size : 1.125rem;
 	text-align : center;
 	justify-content : center;
 }
@@ -36,7 +36,7 @@ button {
 	padding : 14px 32px;
 	border : 0px;
 	border-radius : 32px;
-	font-size : 16px;
+	font-size : 1rem;
 	cursor : auto;
 	align-self : center;
 }
@@ -48,7 +48,7 @@ dl {
 	text-align : left;
 }
 dt {
-	font-size : 18px;
+	font-size : 1.125rem;
 	font-weight : bold;
 	font-style : italic;
 	padding-bottom : 5px;
@@ -63,11 +63,11 @@ footer {
 	display : flex;
 	flex-direction : column;
 	padding-top : 10px;
-	font-size : 18px;
+	font-size : 1.25rem;
 	align-items : center;
 }
 
-.navigation {
+.navigation, #links {
 	display : flex;
 	flex-direction : row;
 	max-height : 10%;
@@ -79,19 +79,11 @@ footer {
 	max-width : 2.5%;
 	max-height : 2.5%;
 }
-
-.topnav {
-	display : none;
+#links {
+	width: 100%;
 }
-.topnav #myLinks {
-  display: inherit;
-}
-.topnav a {
-	display: block;
-	color: white;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+#menu {
+	display: none;
 }
 
 .masthead {
@@ -105,19 +97,19 @@ footer {
 	font-family : Audiowide;
 }
 .masthead h1 {
-	font-size : 64px;
+	font-size : 4rem;
 	margin-top : 20px;
 	margin-bottom : 5px;
 	padding-top : 150px;
 	text-decoration: none;
 }
 .masthead p {
-	font-size : 40px;
+	font-size : 2.2rem;
 	margin-top : 0px;
 	padding-top : 0px;
 }
 .quote {
-	font-size : 20px;
+	font-size : 1.25rem;
 	font-style : italic;
 }
 
@@ -147,50 +139,98 @@ footer {
 	visibility : hidden;
 	position : absolute;
 	align-self : center;
-	font-size : 24px;
+	font-size : 1.5rem;
 }
 .year {
-	font-size : 14px;
+	font-size : 0.875rem;
 }
 .author {
-	font-size : 14px;
+	font-size : 0.875rem;
 }
 .description {
-	font-size : 16px;
+	font-size : 1rem;
 	color : gold;
 }
 
 /* CSS for small screens (phones, tablets) */
 
-@media only screen and (max-width: 1000px) {
-	.navigation {
-		display : none;
+@media only screen and (800px < width <= 2000px) {
+	:root {
+		font-size: 14px;
 	}
 
-	.topnav {
-		display : block;
-		overflow: hidden;
-		position: relative;
-		text-align : left;
-		/* height : 8%; */
+	.navigation, #links {
+		display : flex;
+		flex-direction : row;
+		max-height : 10%;
+		justify-content : space-around;
+		align-items : center;
+		margin-bottom : 5px;
 	}
-	.topnav #links {
+	.navigation img {
+		max-width : 2.5%;
+		max-height : 2.5%;
+	}
+	#links {
+		width: 100%;
+	}
+	#menu {
 		display: none;
 	}
-	.topnav a {
-		display: block;
-		text-decoration: none;
-		font-size: 17px;
-	}
-	/* .topnav a.icon {
-		display: block;
-	} */
 
 	.masthead h1 {
-		font-size : 3em; /*52px;*/
+		font-size : 4em;
 	}
 	#quote {
-		font-size : 1.5em/*32px;*/
+		font-size : 1.5em
+	}
+
+	.active {
+	  width : 8%;
+	  height : 8%;
+	}
+}
+
+/* CSS for small screens (phones, tablets) */
+
+@media only screen and (max-width: 800px) {
+	:root {
+		font-size: 11px;
+	}
+
+	.navigation {
+		display : block;
+		overflow: hidden;
+		text-align : left;
+		position: absolute;
+		z-index: 1;
+		background-image: url("Images/icons/menu.svg");
+		background-repeat: no-repeat;
+		max-height: fit-content;
+		width: 100%;
+	}
+	#links, #nav-img {
+		display: none;
+	}
+	.navigation > #menu {
+		display: block;
+	}
+	#links {
+		width: 100%;
+	}
+	.navigation a {
+		display: block;
+		color: white;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 1rem;
+	}
+
+	.masthead h1 {
+		font-size : 4em;
+	}
+	#quote {
+		font-size : 1.5em
 	}
 
 	/* Style the active link (or home/logo) */
@@ -222,6 +262,12 @@ footer {
 	}
 	button:hover{
 		background-color : rgba(255, 255, 255, 0.8);
+	}
+	.navigation {
+		background-color: rgb(40,40,40);
+	}
+	.navigation:hover {
+		background-color: rgb(35,35,35);
 	}
 	.topnav {
 		background-color: rgb(40,40,40);
@@ -266,6 +312,12 @@ footer {
 	/* .navigation {
 		background-color : rgb(205,205,205);
 	} */
+	.navigation {
+		background-color: rgb(200,200,200);
+	}
+	.navigation:hover {
+		background-color: rgb(190,190,190);
+	}
 	.topnav {
 		background-color: rgb(200,200,200);
 	}

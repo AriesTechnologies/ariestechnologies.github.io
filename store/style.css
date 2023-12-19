@@ -16,14 +16,16 @@ footer {
 
 .navigation {
 	display : block;
-	flex-direction : none;
-	justify-content : none;
-	max-height : none;
+	/*flex-direction : none;*/
+	/*justify-content : none;*/
+	/*max-height : none;*/
 	width : 7.5%;
-	height : 100vh;
-	font-size : 16px;
+	height: 99vh;
+	max-height: 99vh;
+	/*font-size : 16px;*/
 	text-align : center;
 	border-radius : 0px 20px 20px 0px;
+	z-index: 1;
 }
 .navigation label {
 	display : flex;
@@ -38,7 +40,7 @@ footer {
 	max-height : none;
 }
 .navigation a {
-	font-size : 14px;
+	font-size : 0.85rem;
 }
 
 .page {
@@ -64,7 +66,7 @@ footer {
 	text-decoration: none;
 }
 #title h2 {
-	font-size : 40px;
+	font-size : 2.25rem;
 	margin-top : 0px;
 }
 
