@@ -131,19 +131,16 @@ nav img {
 }
 
 .portfolio {
-	margin-top : 10px;
-	justify-content : space-around;
-}
-.prow {
 	display: flex;
-	justify-content : left;
+	flex-flow: row wrap;
+	margin: 6vh 10px 10px 10px;
 }
 .pitem {
 	display : flex;
-	width : 33%;
 	height : 225px;
-	padding : 2px;
-	justify-content : center;
+	padding: 2px;
+	justify-content : space-evenly;
+	flex-basis: 33%;
 }
 .pitem:hover > img {
 	opacity: 0.3;
@@ -158,14 +155,10 @@ nav img {
 	align-self : center;
 	font-size : 1.5rem;
 }
-.year {
-	font-size : 0.875rem;
-}
-.author {
-	font-size : 0.875rem;
+.year, .author, .description {
+	font-size: 1rem;
 }
 .description {
-	font-size : 1rem;
 	color : gold;
 }
 
@@ -212,6 +205,9 @@ nav img {
 	.masthead h1 {
 		font-size : 4rem;
 	}
+	.pitem {
+		flex-basis: 100%;
+	}
 }
 
 /* CSS for dark mode */
@@ -240,9 +236,9 @@ nav img {
 	nav {
 		background-color: rgb(40,40,40);
 	}
-	nav:hover {
+	/*nav:hover {
 		background-color: rgb(35,35,35);
-	}
+	}*/
 	.year {
 		color : darkgrey;
 	}
@@ -280,9 +276,9 @@ nav img {
 	nav {
 		background-color: rgb(200,200,200);
 	}
-	nav:hover {
+	/*nav:hover {
 		background-color: rgb(190,190,190);
-	}
+	}*/
 	.year {
 		color : rgb(15,15,15);
 	}

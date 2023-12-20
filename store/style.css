@@ -72,11 +72,28 @@ h1 {
 }
 
 .portfolio {
-	align : center;
-	justify-content : left;
-}
-.pimg {
 	width : 100%;
+	margin-left: 5%;
+	margin-top: 0vh;
+}
+
+@media only screen and (width <= 1200px) {
+	:root {
+		font-size: 12px;
+	}
+
+	.navigation {
+		width: 5%;
+		max-width: unset;
+	}
+
+	.navigation img {
+		max-width : 55%;
+	}
+
+	.navigation a {
+		visibility: hidden;
+	}
 }
 
 /* CSS for dark mode */
