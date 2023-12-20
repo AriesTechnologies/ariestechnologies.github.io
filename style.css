@@ -207,8 +207,14 @@ nav img {
 	.masthead h1 {
 		font-size : 4rem;
 	}
+	.portfolio {
+		margin: 6vh 1px 1px 1px;
+	}
 	.pitem {
 		flex-basis: 100%;
+	}
+	.pitem > img {
+		width: 95%;
 	}
 }
 
