@@ -71,6 +71,9 @@ footer {
 	font-size : 1.25rem;
 	align-items : center;
 }
+hr {
+	width: 100%;
+}
 
 nav {
 	padding: 5px;
