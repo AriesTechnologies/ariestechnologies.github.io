@@ -116,7 +116,7 @@ nav img {
 	margin-top: 5vh;
 }
 .masthead h1 {
-	font-size : 4rem;
+	font-size : 5rem;
 	text-decoration: none;
 	margin: 0px;
 }
@@ -208,6 +208,9 @@ nav img {
 	}
 	.masthead {
 		max-height: 50%;
+	}
+	.masthead h1 {
+		font-size : 4rem;
 	}
 }
 
