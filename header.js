@@ -1,6 +1,5 @@
 document.write(`
-   <header>
-      <div class="navigation">
+      <nav class="navigation">
          <a href="javascript:void(0);" id="menu" class="icon">
             <i class="fa fa-bars"></i>
          </a>
@@ -13,8 +12,7 @@ document.write(`
             <a href="store/home.html" target="_blank" rel="noopener noreferrer">STORE</a>
             <a href="support.html">SUPPORT</a>
          </div>
-      </div>
-   </header>
+      </nav>
    `);
 
 document.addEventListener('DOMContentLoaded', function () {

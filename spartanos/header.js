@@ -1,20 +1,18 @@
 document.write(`
-   <header>
-      <div class='navigation'>
+      <nav class='navigation'>
          <a href="javascript:void(0);" id="menu" class="icon">
             <i class="fa fa-bars"></i>
          </a>
          <div id="links">
             <img id="nav-img" src='../Images/icons/SpartanOS.png' onclick="window.location.href='home.html'"/>
-            <img src='../Images/icons/SpartanOS.png' onclick="window.location.href='home.html'"/>
+            <!--<img src='../Images/icons/SpartanOS.png' onclick="window.location.href='home.html'"/>-->
             <a href='versions.html'>VERSIONS</a>
             <a href='docs.html'>DOCS</a>
             <a href='../store/spartanos.html'>STORE</a>
             <a href='support.html'>SUPPORT</a>
             <button id='theme' type='button'></button>
          </div>
-      </div>
-   </header>
+      </nav>
    `);
 
    document.addEventListener('DOMContentLoaded', function () {

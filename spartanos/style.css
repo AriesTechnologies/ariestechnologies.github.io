@@ -6,31 +6,31 @@ button {
 	color : white;
 }
 
-.navigation button {
+nav button {
 	padding : 7px 16px;
 	border-radius : 16px;
 }
 
 .masthead {
 	background-image : url("../Images/icons/SpartanOS.png");
-	background-size : 43%;
-	height : 110vh;
 	font-family : none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 }
 .masthead h1 {
-	font-size : 48px;
+	font-size : 3rem;
 }
 .masthead button {
 	color : white;
-	font-size : 20px;
+	font-size : 1.25rem;
 	margin-top : 20px;
 }
 .masthead .quote {
-	font-size : 30px;
+	font-size : 1.875rem;
 }
 
 .title {
-	font-size : 36px;
+	font-size : 2.25rem;
 	font-weight : bold;
 	margin : 5px;
 }
@@ -40,12 +40,6 @@ button {
 @media (prefers-color-scheme : dark) {
 	.masthead {
 		background-color : rgba(0,0,0,0.2);
-	}
-	.topnav {
-		background-color: rgb(40,40,40);
-	}
-	.topnav a {
-		color: white;
 	}
 }
 
@@ -63,12 +57,5 @@ button {
 	}
 	.quote {
 		color : white;
-	}
-
-	.topnav {
-		background-color: rgb(200,200,200);
-	}
-	.topnav a {
-		color: black;
 	}
 }

@@ -16,17 +16,13 @@ footer {
 
 .navigation {
 	display : block;
-	/*flex-direction : none;*/
-	/*justify-content : none;*/
-	/*max-height : none;*/
-	width : 7.5%;
 	height: 99vh;
 	max-height: 99vh;
-	/*font-size : 16px;*/
 	text-align : center;
 	border-radius : 0px 20px 20px 0px;
 	z-index: 1;
 	background-image: none;
+	max-width: 5%;
 }
 .navigation label {
 	display : flex;
@@ -45,8 +41,8 @@ footer {
 }
 
 .page {
-		display : flex;
-		flex-direction : row;
+	display : flex;
+	flex-direction : row;
 }
 .masthead {
 	display : flex;
