@@ -79,7 +79,8 @@ nav {
 	padding: 5px;
 	z-index: 1;
 	position: absolute;
-	width: 100vw;
+	/*width: 100vw;*/
+	width: 100%;
 }
 nav, #links {
 	display : flex;
@@ -134,6 +135,7 @@ nav img {
 	display: flex;
 	flex-flow: row wrap;
 	margin: 6vh 10px 10px 10px;
+	width: 100%;
 }
 .pitem {
 	display : flex;
