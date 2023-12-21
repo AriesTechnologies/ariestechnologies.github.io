@@ -79,8 +79,9 @@ nav {
 	padding: 5px;
 	z-index: 1;
 	position: absolute;
-	/*width: 100vw;*/
-	width: 100%;
+	width: 100vw;
+	/*width: 100%;*/
+	overflow-x: hidden;
 }
 nav, #links {
 	display : flex;

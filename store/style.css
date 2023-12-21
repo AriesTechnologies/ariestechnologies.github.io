@@ -19,19 +19,23 @@ h1 {
 }
 
 .navigation {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	justify-content: unset;
 	height: 100vh;
 	text-align : center;
 	border-radius : 0px 20px 20px 0px;
 	background-image: none;
-	max-width: 5%;
+	/*max-width: 5%;*/
 	z-index: 1;
-	position: absolute;
 }
 .navigation label {
 	display : flex;
 	flex-direction : column;
 	padding : 10px;
 	border-radius : 0px 20px 20px 0px;
+	align-items: unset;
 }
 .navigation img {
 	width : 55%;
@@ -77,22 +81,28 @@ h1 {
 	margin-top: 0vh;
 }
 
-@media only screen and (width <= 1200px) {
+@media only screen and (width <= 800px) {
 	:root {
 		font-size: 12px;
 	}
 
 	.navigation {
-		width: 5%;
+		display: flex;
+		width: 100%;
 		max-width: unset;
+		height: 5%;
+		border-radius: 0px 0px 15px 15px;
+		justify-content: space-evenly;
+		flex-direction: row;
+	}
+
+	.navigation > label {
+		flex-direction: row;
+		align-items: center;
 	}
 
 	.navigation img {
-		max-width : 55%;
-	}
-
-	.navigation a {
-		visibility: hidden;
+		max-width : unset;
 	}
 }
 
