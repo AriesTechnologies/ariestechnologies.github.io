@@ -13,5 +13,12 @@
 			<pubDate>Tue, 07 Oct 2025 09:20:00 CST</pubDate>
 			<description>Testing</description>
 		</item>
+		<item>
+			<title>Hello Test</title>
+			<link>https://ariestechnologies.github.io/</link>
+			<guid>https://ariestechnologies.github.io/</guid>
+			<pubDate>Tue, 07 Oct 2025 09:40:00 CST</pubDate>
+			<description>Testing</description>
+		</item>
 	</channel>
 </rss>
