@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Test</title>
+		<link>https://ariestechnologies.github.io/</link>
+		<description>Test RSS</description>
+		<language>en-us</language>
+		
+		<item>
+			<title>Hello</title>
+			<link>https://ariestechnologies.github.io/</link>
+			<guid>https://ariestechnologies.github.io/</guid>
+			<pubDate>Tue, 07 Oct 2025 09:20:00 CST</pubDate>
+			<description>Testing</description>
+		</item>
+	</channel>
+</rss>
