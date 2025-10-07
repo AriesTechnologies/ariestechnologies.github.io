@@ -19,11 +19,7 @@
 			<guid>https://ariestechnologies.github.io/news</guid>
 			<pubDate>Tue, 07 Oct 2025 09:20:00 CDT</pubDate>
 			<description>Testing</description>
-			<image>
-				<title>AriesTechnologies Logo</title>
-				<url>https://ariestechnologies.github.io/Images/AriesTechLogo.png</url>
-				<link>https://ariestechnologies.github.io</link>
-			</image>
+			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type="image/png" />
 		</item>
 	</channel>
 </rss>
