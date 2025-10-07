@@ -2,14 +2,21 @@
 <rss version="2.0">
 	<channel>
 		<title>AriesTechnologies News</title>
-		<link>https://ariestechnologies.github.io/news</link>
+		<link>https://ariestechnologies.github.io</link>
 		<description>RSS Test</description>
 		<language>en-us</language>
+		<category>App Development</category>
+		<copyright>2025 AriesTechnolgies LLC. All rights reserved.</copyright>
+		<image>
+			<title>AriesTechnologies Logo</title>
+			<url>https://ariestechnologies.github.io/Images/AriesTechLogo.png</url>
+			<link>https://ariestechnologies.github.io</link>
+		</image>
 		
 		<item>
 			<title>Hello World</title>
-			<link>https://ariestechnologies.github.io/</link>
-			<guid>https://ariestechnologies.github.io/</guid>
+			<link>https://ariestechnologies.github.io/news</link>
+			<guid>https://ariestechnologies.github.io/news</guid>
 			<pubDate>Tue, 07 Oct 2025 09:20:00 CDT</pubDate>
 			<description>Testing</description>
 		</item>
