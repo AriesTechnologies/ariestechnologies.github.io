@@ -15,7 +15,7 @@
 
 		<item>
 			<title>RSS News</title>
-			<link>https://ariestechnologies.github.io/news/</link>
+			<link>https://ariestechnologies.github.io/news/rss_feed_news.html</link>
 			<guid>FS1X4uyz8ESPUjHL-G6QfAb</guid>
 			<pubDate>Tue, 07 Oct 2025 13:29:00 CDT</pubDate>
 			<description>Stay up-to-date with the new RSS feed!</description>
@@ -32,3 +32,4 @@
 		</item>
 	</channel>
 </rss>
+
