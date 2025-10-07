@@ -12,11 +12,20 @@
 			<url>https://ariestechnologies.github.io/Images/AriesTechLogo.png</url>
 			<link>https://ariestechnologies.github.io</link>
 		</image>
-		
+
+		<item>
+			<title>RSS News</title>
+			<link>https://ariestechnologies.github.io/news/</link>
+			<guid>FS1X4uyz8ESPUjHL-G6QfAb</guid>
+			<pubDate>Tue, 07 Oct 2025 13:29:00 CDT</pubDate>
+			<description>Stay up-to-date with the new RSS feed!</description>
+			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type="image/png" />
+		</item>
+																								
 		<item>
 			<title>Hello World</title>
 			<link>https://ariestechnologies.github.io/news</link>
-			<guid>https://ariestechnologies.github.io/news</guid>
+			<guid>rHU3NorUPk-qIU7TucHD8g</guid>
 			<pubDate>Tue, 07 Oct 2025 09:20:00 CDT</pubDate>
 			<description>Testing</description>
 			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type="image/png" />
