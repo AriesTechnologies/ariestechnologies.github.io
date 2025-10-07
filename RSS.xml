@@ -7,6 +7,11 @@
 		<language>en-us</language>
 		<category>App Development</category>
 		<copyright>2025 AriesTechnolgies LLC. All rights reserved.</copyright>
+		<image>
+			<title>AriesTechnologies Logo</title>
+			<url>https://ariestechnologies.github.io/Images/AriesTechLogo.png</url>
+			<link>https://ariestechnologies.github.io</link>
+		</image>
 		
 		<item>
 			<title>Hello World</title>
@@ -16,5 +21,4 @@
 			<description>Testing</description>
 		</item>
 	</channel>
-
 </rss>
