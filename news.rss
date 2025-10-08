@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>AriesTechnologies News</title>
+		<link>https://ariestechnologies.github.io</link>
+		<description>RSS Test</description>
+		<language>en-us</language>
+		<category>App Development</category>
+		<copyright>2025 AriesTechnolgies LLC. All rights reserved.</copyright>
+		<image>
+			<title>AriesTechnologies Logo</title>
+			<url>https://ariestechnologies.github.io/Images/AriesTechLogo.png</url>
+			<link>https://ariestechnologies.github.io</link>
+		</image>
+
+
+		<item>
+			<title>Website Updates</title>
+			<link>https://ariestechnologies.github.io/website.html</link>
+			<guid>78_hiCkgV0mbMoOr97yFlw</guid>
+			<pubDate>Wed, 08 Oct 2025 10:58:00 CDT</pubDate>
+			<description>Updates to the website coming soon!</description>
+			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type="image/png" />
+		</item>
+		<item>
+			<title>RSS News</title>
+			<link>https://ariestechnologies.github.io/rss_feed_news.html</link>
+			<guid>NUAx9RRjCkipFRKEkbIRcg</guid>
+			<pubDate>Tue, 07 Oct 2025 13:29:00 CDT</pubDate>
+			<description>Stay up-to-date with the new RSS feed!</description>
+			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type="image/png" />
+		</item>
+	</channel>
+</rss>
+
+
+
+
