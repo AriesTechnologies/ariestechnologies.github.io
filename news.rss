@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 	<channel>
 		<title>AriesTechnologies News</title>
@@ -14,6 +13,14 @@
 		</image>
 
 
+		<item>
+			<title>Spirit of Rebellion (IU 0.33.2 Gamma)</title>
+			<link>https://ariestechnologies.github.io/spiritofrebellion.html</link>
+			<description>Release of Spirit of Rebellion (IU 0.33.2 Gamma)</description>
+			<pubDate>Fri, 24 Jul 2026 08:07:55 -0500</pubDate>
+			<guid>642ea5a5-cad5-4eb3-9267-28b9838783d5</guid>
+			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type_="image/png" />
+		</item>
 		<item>
 			<title>Website Updates</title>
 			<link>https://ariestechnologies.github.io/website.html</link>
@@ -32,7 +39,3 @@
 		</item>
 	</channel>
 </rss>
-
-
-
-
