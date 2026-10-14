@@ -1,4 +1,4 @@
-document.write(`
+/*document.write(`
       <nav class="navigation">
          <a href="javascript:void(0);" id="menu" class="icon">
             <i class="fa fa-bars"></i>
@@ -13,7 +13,7 @@ document.write(`
             <a href="support.html">SUPPORT</a>
          </div>
       </nav>
-   `);
+   `);*/
 
 document.addEventListener('DOMContentLoaded', function () {
    'use strict';
@@ -31,4 +31,14 @@ document.addEventListener('DOMContentLoaded', function () {
    addEventListener('resize', function () {
       document.getElementById("links").style.removeProperty("display");
    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  'use strict';
+  fetch('nav.html')
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('nav-placeholder').innerHTML = html;
+    })
+    .catch(error => console.error('Error loading navbar:', error));
 });
