@@ -1,26 +1,27 @@
-/*document.write(`
-      <nav class="navigation">
-         <a href="javascript:void(0);" id="menu" class="icon">
-            <i class="fa fa-bars"></i>
-         </a>
-         <div id="links">
-            <img id="nav-img" src="Images/icons/AriesTech.svg" onclick="window.location.href='index.html'" />
-            <a href="news.html">NEWS</a>
-            <a href="spartanos/home.html" target="_blank" rel="noopener noreferrer">SPARTANOS</a>
-            <a href="spartanos/acfs.html" target="_blank" rel="noopener noreferrer">ACFS</a>
-            <a href="otherprojects.html">OTHER PROJECTS</a>
-            <a href="store/home.html" target="_blank" rel="noopener noreferrer">STORE</a>
-            <a href="support.html">SUPPORT</a>
-         </div>
-      </nav>
-   `);*/
+function openMobileNavbar() {
+	const x = document.getElementById("links");
+	if (x.style.display != "none" && x.style.display != "") {
+		x.style.display = "none";
+	} else {
+		x.style.display = "block";
+	}
+}
 
 document.addEventListener('DOMContentLoaded', () => {
-  'use strict';
-  fetch('nav.html')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('nav-placeholder').innerHTML = html;
-    })
-    .catch(error => console.error('Error loading navbar:', error));
+	'use strict';
+
+	fetch('nav.html')
+ 	.then(response => response.text())
+ 	.then(html => {
+		document.getElementById('nav-placeholder').innerHTML = html;
+		})
+	.catch(error => console.error('Error loading navbar:', error));
+});
+
+document.getElementById('nav-placeholder').addEventListener('click', (e) => {
+	openMobileNavbar();
+});
+
+document.getElementById('nav-placeholder').addEventListener('resize', (e) => {
+	document.getElementById("links").style.removeProperty("display");
 });

@@ -179,6 +179,9 @@ nav img {
 	:root {
 		font-size: 12px;
 	}
+	#nav-placeholder {
+		text-align : left;
+	}
 	nav {
 		display : inline-block;
 		text-align : left;
