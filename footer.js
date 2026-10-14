@@ -1,6 +1,9 @@
-document.write(`
-   <footer>
-      <a href="">&#8593 Back to Top</a>
-      <p>&#169; 2018-2026 AriesTechnologies LLC</p>
-   </footer>
-`);
+document.addEventListener('DOMContentLoaded', () => {
+  'use strict';
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('footer-placeholder').innerHTML = html;
+    })
+    .catch(error => console.error('Error loading footer:', error));
+});
