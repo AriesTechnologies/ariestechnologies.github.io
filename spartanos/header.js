@@ -1,28 +1,32 @@
-/* --- Functions --- */
-
-function openMobileNavbar() {
-	if (window.innerWidth >= 800)
-		return;
-	
-	const x = document.getElementById("links");
-	if (x.style.display != "none" && x.style.display != "") {
-		x.style.display = "none";
-	} else {
-		x.style.display = "block";
-	}
-}
-
-/* --- Event Handlers --- */
+document.write(`
+      <nav class='navigation'>
+         <a href="javascript:void(0);" id="menu" class="icon">
+            <i class="fa fa-bars"></i>
+         </a>
+         <div id="links">
+            <img id="nav-img" src='../Images/icons/SpartanOS.png' onclick="window.location.href='home.html'"/>
+            <!--<img src='../Images/icons/SpartanOS.png' onclick="window.location.href='home.html'"/>-->
+            <a href='versions.html'>VERSIONS</a>
+            <a href='docs.html'>DOCS</a>
+            <a href='../store/spartanos.html'>STORE</a>
+            <a href='support.html'>SUPPORT</a>
+            <button id='theme' type='button'></button>
+         </div>
+      </nav>
+   `);
 
    document.addEventListener('DOMContentLoaded', function () {
-	'use strict';
+      'use strict';
 
-	fetch('nav.html')
- 	.then(response => response.text())
- 	.then(html => {
-		document.getElementById('nav-placeholder').innerHTML = html;
-		})
-	.catch(error => console.error('Error loading navbar:', error));
+      // Hamburger Menu
+      document.querySelector('#menu').addEventListener('click', function () {
+         const x = document.getElementById("links");
+         if (x.style.display != "none" && x.style.display != "") {
+           x.style.display = "none";
+         } else {
+           x.style.display = "block";
+         }
+      });
    
       addEventListener('resize', function () {
          document.getElementById("links").style.removeProperty("display");
@@ -91,21 +95,12 @@ function openMobileNavbar() {
          themeNum = parseInt(localStorage.getItem('theme'));
       }
 
-      //const themeBtn = document.getElementById("theme");
+      const themeBtn = document.getElementById("theme");
    
-      themeBtn.addEventListener('click', () => {
+      themeBtn.addEventListener('click', function () {
          changeTheme(themeNum);
       });
    
       themeNum -= 1;
       changeTheme(themeNum);
    });
-
-
-document.getElementById('nav-placeholder').addEventListener('click', (e) => {
-	openMobileNavbar();
-});
-
-document.getElementById('nav-placeholder').addEventListener('resize', (e) => {
-	document.getElementById("links").style.removeProperty("display");
-});
