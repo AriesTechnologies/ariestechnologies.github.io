@@ -10,10 +10,10 @@ function openMobileNavbar() {
 	}
 }
 
-document.getElementById('nav-placeholder').addEventListener('click', (e) => {
+document.querySelector('#menu').addEventListener('click', (e) => {
 	openMobileNavbar();
 });
 
-document.getElementById('nav-placeholder').addEventListener('resize', (e) => {
+document.getElementById('nav').addEventListener('resize', (e) => {
 	document.getElementById("links").style.removeProperty("display");
 });
