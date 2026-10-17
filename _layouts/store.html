@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8" name="viewport" content="initial-scale=1"/>
+
+		<title>AriesStore</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="type/x-icon" href="favicon.ico" />
+		<!--<link rel="alternate" type="application/rss+xml" title="News RSS" href="https://ariestechnologies.github.io/news.rss">-->
+</head>
+<body oncontextmenu="return false;">
+  {% include store_nav.html %}
+
+  <main>
+    {{ content }}
+  </main>
+  <hr/>
+
+  {% include footer.html %}
+
+</body>
+</html>
