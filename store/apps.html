@@ -4,7 +4,21 @@ layout: store
 
 <div class="page">
 	<div class="portfolio">
-		<!--<div class="prow">-->
+	{% for post in site.data.apps.apps %}
+			<div class="pitem" onclick="window.location.href='/store/{{post.link}}'">
+				<img class="pimg" src="/Images/{{post.image}}" />
+				<div class="text">
+					<div>{{post.title}}</div>
+					<div class="author">By: {{post.author}}</div>
+					<div class="description">{{post.cost}}</div>
+				</div>
+			</div>
+	{% endfor %}
+	</div>
+</div>
+
+<!--<div class="page">
+	<div class="portfolio">
 			<div class="pitem" onclick="window.location.href='townlands-remastered.html'">
 				<img class="pimg" src="../Images/townlands.png" />
 				<div class="text">
@@ -29,8 +43,6 @@ layout: store
 					<div class="description">$0.00</div>
 				</div>
 			</div>
-		<!--</div>-->
-		<!--<div class="prow">-->
 			<div class="pitem" onclick="window.location.href='zombiesi.html'">
 				<img class="pimg" src="../Images/zombies.png" />
 				<div class="text">
@@ -39,6 +51,5 @@ layout: store
 					<div class="description">$0.00</div>
 				</div>
 			</div>
-		<!--</div>-->
 	</div>
-</div>
+</div>-->
