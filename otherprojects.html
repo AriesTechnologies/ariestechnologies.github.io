@@ -3,6 +3,20 @@ layout: default
 ---
 
 <div class="portfolio">
+{% for post in site.data.other_projects.projects %}
+	<div class="pitem" onclick="window.location.href={{post.link}}">
+		<img src="Images/{{post.image}}" />
+		<div class="text">
+			<div>{{post.title}}</div>
+			<div class="year">{{post.year}}</div>
+			<div class="author">{{post.author}}</div>
+			<div class="description">Read More →</div>
+		</div>
+	</div>
+{% endfor %}
+</div>
+
+<!--<div class="portfolio">
 <div class="pitem" onclick="window.location.href='strangerthings.html'">
 	<img src="Images/stranger_things.png" />
 	<div class="text">
@@ -145,4 +159,4 @@ layout: default
 	</div>
 </div>
 
-</div>
+</div>-->
