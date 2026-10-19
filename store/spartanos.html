@@ -6,7 +6,7 @@ layout: store
 	<div class="portfolio">
 	{% for post in site.data.store.spartanos_apps %}
 			<div class="pitem" onclick="window.location.href='/store/{{post.link}}'">
-				<img class="pimg" src="/Images/{{post.image}}" />
+				<img class="pimg" src="/assets/images/{{post.image}}" />
 				<div class="text">
 					<div>{{post.title}}</div>
 					<div class="author">By: {{post.author}}</div>
@@ -16,34 +16,3 @@ layout: store
 	{% endfor %}
 	</div>
 </div>
-
-<!--<div class="page">
-	<div id="nav-placeholder"></div>
-
-	<div class="portfolio">
-			<div class="pitem" onclick="window.location.href='atlasoffice.html'">
-				<img class="pimg" src="../Images/AtlasCorpLogoV4.png" />
-				<div class="text">
-					<div>AtlasOffice</div>
-					<div class="author">By: AtlasCorporations</div>
-					<div class="description">$2.00</div>
-				</div>
-			</div>
-			<div class="pitem"  onclick="window.location.href='sandbox.html'" >
-				<img class="pimg" src="../Images/AtlasCorpLogoV4.png" />
-				<div class="text">
-					<div>Sandbox</div>
-					<div class="author">By: AtlasCorporations</div>
-					<div class="description">$1.50</div>
-				</div>
-			</div>
-			<div class="pitem" onclick="window.location.href='screensaver.html'" >
-				<img class="pimg" src="../Images/SpartanOS/Screensaver.png" />
-				<div class="text">
-					<div>Screensaver</div>
-					<div class="author">By: AtlasCorporations</div>
-					<div class="description">$0.00</div>
-				</div>
-			</div>
-	</div>
-</div>-->

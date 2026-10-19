@@ -6,7 +6,7 @@ layout: store
 	<div class="portfolio">
 	{% for post in site.data.store.apps %}
 			<div class="pitem" onclick="window.location.href='/store/{{post.link}}'">
-				<img class="pimg" src="/Images/{{post.image}}" />
+				<img class="pimg" src="/assets/images/{{post.image}}" />
 				<div class="text">
 					<div>{{post.title}}</div>
 					<div class="author">By: {{post.author}}</div>
@@ -16,40 +16,3 @@ layout: store
 	{% endfor %}
 	</div>
 </div>
-
-<!--<div class="page">
-	<div class="portfolio">
-			<div class="pitem" onclick="window.location.href='townlands-remastered.html'">
-				<img class="pimg" src="../Images/townlands.png" />
-				<div class="text">
-					<div>Townlands: Remastered</div>
-					<div class="author">By: AtlasCorporations</div>
-					<div class="description">$0.00</div>
-				</div>
-			</div>
-			<div class="pitem" onclick="window.location.href='atlasdesigner.html'">
-				<img class="pimg" src="../Images/AtlasDesigner3.png" />
-				<div class="text">
-					<div>AtlasDesigner</div>
-					<div class="author">By: AtlasCorporations</div>
-					<div class="description">$0.00</div>
-				</div>
-			</div>
-			<div class="pitem"  onclick="window.location.href='townlands.html'">
-				<img class="pimg" src="../Images/townlands.png" />
-				<div class="text">
-					<div>Townlands</div>
-					<div class="author">By: AtlasCorporations</div>
-					<div class="description">$0.00</div>
-				</div>
-			</div>
-			<div class="pitem" onclick="window.location.href='zombiesi.html'">
-				<img class="pimg" src="../Images/zombies.png" />
-				<div class="text">
-					<div>Zombies I</div>
-					<div class="author">By: AtlasCorporations</div>
-					<div class="description">$0.00</div>
-				</div>
-			</div>
-	</div>
-</div>-->

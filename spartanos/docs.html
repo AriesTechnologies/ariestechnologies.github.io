@@ -5,7 +5,7 @@ layout: spartanos
 <div class="portfolio">
 {% for post in site.data.spartanos.docs %}
 	<div class="pitem" onclick="window.location.href='/spartanos/{{post.link}}'">
-		<img src="/Images/{{post.image}}" />
+		<img src="/assets/images/{{post.image}}" />
 		<div class="text">
 			<div>{{post.title}}</div>
 			<div class="author">{{post.author}}</div>
@@ -14,30 +14,3 @@ layout: spartanos
 	</div>
 {% endfor %}
 </div>
-
-<!--<div class="portfolio">
-	<div class="pitem" onclick="window.location.href='themes.html'">
-		<img class="pimg" src="../Images/SpartanOS/Manual/BLUEJAY.png" />
-		<div class="text">
-			<div>Themes</div>
-			<div class="author">By: Brendan Beard</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem"  onclick="window.location.href='acfs.html'" >
-		<img class="pimg" src="../Images/AtlasQDOS.PNG" />
-		<div class="text">
-			<div>ACFS Docs</div>
-			<div class="author">By: Brendan Beard</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem"  onclick="window.location.href='appversions.html'" >
-		<img class="pimg" src="../Images/SpartanOS.png" />
-		<div class="text">
-			<div>App Versions</div>
-			<div class="author">By: Brendan Beard</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-</div>-->

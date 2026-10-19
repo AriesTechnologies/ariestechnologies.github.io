@@ -5,7 +5,7 @@ layout: spartanos
 <div class="portfolio">
 {% for post in site.data.spartanos.versions %}
 	<div class="pitem" onclick="window.location.href='/spartanos/{{post.link}}'">
-		<img class="pimg" src="/Images/{{post.image}}" />
+		<img class="pimg" src="/assets/images/{{post.image}}" />
 		<div class="text">
 			<div>{{post.title}}</div>
 			<div class="year">{{post.year}}</div>
@@ -14,46 +14,3 @@ layout: spartanos
 	</div>
 {% endfor %}
 </div>
-
-<!--<div class="portfolio">
-	<div class="pitem" onclick="window.location.href='overview.html'">
-		<img class="pimg" src="../Images/AriesTech.png" />
-		<div class="text">
-			<div>Overview</div>
-			<div class="year">2022</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem"  onclick="window.location.href='2024.html'" >
-		<img class="pimg" src="../Images/SpartanOS/2024/SpartanOS2024.png" />
-		<div class="text">
-			<div>SpartanOS 2024</div>
-			<div class="year">2022</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem"  onclick="window.location.href='eclipse.html'" >
-		<img class="pimg" src="../Images/SpartanOS/Eclipse/Eclipse.png" />
-		<div class="text">
-			<div>SpartanOS Eclipse</div>
-			<div class="year">2020</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-		<div class="pitem" onclick="window.location.href='ambition.html'" >
-			<img class="pimg" src="../Images/SpartanOS/Ambition/Ambition.png" />
-			<div class="text">
-				<div>SpartanOS Ambition</div>
-				<div class="year">2018</div>
-				<div class="description">Read More →</div>
-			</div>
-		</div>
-		<div class="pitem" onclick="window.location.href='atlasos.html'" style="width: 33%" >
-			<img class="pimg" src="../Images/AtlasOSScratch.jpg" />
-			<div class="text">
-				<div>AtlasOS Scratch</div>
-				<div class="year">2016</div>
-				<div class="description">Read More →</div>
-			</div>
-		</div>
-</div>-->
