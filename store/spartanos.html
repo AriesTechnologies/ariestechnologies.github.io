@@ -3,10 +3,24 @@ layout: store
 ---
 
 <div class="page">
+	<div class="portfolio">
+	{% for post in site.data.apps.apps %}
+			<div class="pitem" onclick="window.location.href='/store/{{post.link}}'">
+				<img class="pimg" src="/Images/{{post.image}}" />
+				<div class="text">
+					<div>{{post.title}}</div>
+					<div class="author">By: {{post.author}}</div>
+					<div class="description">{{post.cost}}</div>
+				</div>
+			</div>
+	{% endfor %}
+	</div>
+</div>
+
+<!--<div class="page">
 	<div id="nav-placeholder"></div>
 
 	<div class="portfolio">
-		<!--<div class="prow">-->
 			<div class="pitem" onclick="window.location.href='atlasoffice.html'">
 				<img class="pimg" src="../Images/AtlasCorpLogoV4.png" />
 				<div class="text">
@@ -31,6 +45,5 @@ layout: store
 					<div class="description">$0.00</div>
 				</div>
 			</div>
-		<!--</div>-->
 	</div>
-</div>
+</div>-->
