@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="portfolio">
-{% for post in site.data.news.articles %}
+{% for post in site.data.main.articles %}
 	<div class="pitem" onclick="window.location.href={{post.link}}">
 		<img src="Images/{{post.image}}" />
 		<div class="text">
@@ -15,79 +15,3 @@ layout: default
 	</div>
 {% endfor %}
 </div>
-
-<!--<div class="portfolio">
-	<div class="pitem" onclick="window.location.href='website_security.html'">
-		<img src="Images/AriesTech.png" />
-		<div class="text">
-			<div>Website Security Updates</div>
-			<div class="year">2026</div>
-			<div class="author">CEO</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem" onclick="window.location.href='rss_feed_news.html'">
-		<img src="Images/AriesTech.png" />
-		<div class="text">
-			<div>New RSS Feed</div>
-			<div class="year">2025</div>
-			<div class="author">CEO</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem" onclick="window.location.href='newhq.html'">
-		<img src="Images/AriesTech.png" />
-		<div class="text">
-			<div>New Headquarters (2022)</div>
-			<div class="year">2022</div>
-			<div class="author">CEO</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem" onclick="window.location.href='website.html'">
-		<img src="Images/AtlasCorpLogoV4.png" />
-		<div class="text">
-			<div>New Website</div>
-			<div class="year">2022</div>
-			<div class="author">CEO</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem" onclick="window.location.href='townlands.html'">
-		<img src="Images/Townlands-Remastered.png" />
-		<div class="text">
-			<div>Townlands: Remastered</div>
-			<div class="year">2022</div>
-			<div class="author">CEO</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-
-	<div class="pitem" onclick="window.location.href='org-changes.html'">
-		<img src="Images/AtlasCorpLogoV4.png" />
-		<div class="text">
-			<div>Organizational Changes</div>
-			<div class="year">2021</div>
-			<div class="author">CEO</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem"  onclick="window.location.href='newhq.html'" >
-		<img src="Images/AtlasCorpLogoV4.png" />
-		<div class="text">
-			<div>New Headquarters</div>
-			<div class="year">2019</div>
-			<div class="author">CEO</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-	<div class="pitem" onclick="window.location.href='atlasdesigner-20-released.html'" >
-		<img src="Images/AtlasDesigner3.png" />
-		<div class="text">
-			<div>AtlasDesigner 2.0 Released</div>
-			<div class="year">2019</div>
-			<div class="author">CEO</div>
-			<div class="description">Read More →</div>
-		</div>
-	</div>
-</div>-->
