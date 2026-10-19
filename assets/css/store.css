@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import "../style.css";
+
+body {
+	text-align : none;
+}
+p {
+	display : block;
+	text-align : none;
+	justify-content : none;
+	margin-top : 10px;
+}
+footer {
+	text-align : center;
+}
+
+h1 {
+	margin-top: 0vh;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	justify-content: unset;
+	height: 100vh;
+	text-align : center;
+	border-radius : 0px 20px 20px 0px;
+	background-image: none;
+	/*max-width: 5%;*/
+	z-index: 1;
+}
+.navigation label {
+	display : flex;
+	flex-direction : column;
+	padding : 10px;
+	border-radius : 0px 20px 20px 0px;
+	align-items: unset;
+}
+.navigation img {
+	width : 55%;
+	align-self : center;
+	max-width : none;
+	max-height : none;
+}
+.navigation a {
+	font-size : 0.85rem;
+}
+
+.page {
+	display : flex;
+	flex-direction : row;
+}
+.masthead {
+	display : flex;
+	flex-direction : row;
+	font-family : Assistant;
+	height: 90vh;
+	background-blend-mode : normal;
+	margin-top: 0vh;
+}
+#title {
+	display : flex;
+	flex-direction: column;
+	justify-content : center;
+	padding-left : 20px;
+}
+#title h1, #title h2 {
+	text-align : left;
+	padding-top : 0px;
+	text-decoration: none;
+}
+#title h2 {
+	font-size : 2.25rem;
+	margin-top : 0px;
+}
+
+.portfolio {
+	width : 100%;
+	margin-left: 5%;
+	margin-top: 0vh;
+}
+
+@media only screen and (width <= 800px) {
+	:root {
+		font-size: 12px;
+	}
+
+	.navigation {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		width: 100%;
+		/*max-width: unset;*/
+		height: 5%;
+		border-radius: 0px 0px 15px 15px;
+	}
+
+	.navigation > label {
+		flex-direction: row;
+		align-items: center;
+		border-radius: 0px 0px 15px 15px;
+	}
+
+	.navigation img {
+		max-width : unset;
+	}
+}
+
+/* CSS for dark mode */
+
+@media (prefers-color-scheme : dark) {
+	button {
+		background-color : white;
+		color : black;
+	}
+	button:hover{
+		background-color : rgba(255, 255, 255, 0.8);
+	}
+
+	.navigation {
+		background-color : rgb(35,35,35);
+	}
+	.navigation label:hover {
+		background-color : gray;
+	}
+	.masthead {
+		background-color : rgb(0,0,0);
+	}
+}
+
+/* CSS for light mode */
+
+@media (prefers-color-scheme : light) {
+	button {
+		background-color : black;
+		color : white;
+	}
+	button:hover{
+		background-color : rgba(255, 255, 255, 0.8);
+	}
+
+	.navigation {
+		background-color : rgb(202,202,200);
+	}
+	.navigation label:hover {
+		background-color : darkgrey;
+	}
+	.masthead {
+		background-color : rgb(219,219,217);
+	}
+}
