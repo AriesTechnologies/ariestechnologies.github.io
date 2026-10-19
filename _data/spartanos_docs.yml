@@ -4,7 +4,7 @@ docs:
     title: "Themes"
     author: "CEO"
   - link: "acfs.html"
-    image: "AtlasQDOS.png"
+    image: "AtlasQDOS.PNG"
     title: "ACFS Docs"
     author: "CEO"
   - link: "appversions.html"
