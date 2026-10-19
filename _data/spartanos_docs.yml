@@ -1,0 +1,13 @@
+docs:
+  - link: "'themes.html'"
+    image: "SpartanOS/Manual/BLUEJAY.png"
+    title: "Themes"
+    author: "CEO"
+  - link: "'acfs.html'"
+    image: "AtlasQDOS.png"
+    title: "ACFS Docs"
+    author: "CEO"
+  - link: "'appversions.html'"
+    image: "SpartanOS.png"
+    title: "App Versions"
+    author: "CEO"

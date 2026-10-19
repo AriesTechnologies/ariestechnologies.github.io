@@ -3,7 +3,19 @@ layout: spartanos
 ---
 
 <div class="portfolio">
-	<!--<div class="prow">-->
+{% for post in site.data.spartanos_docs.docs %}
+	<div class="pitem" onclick="window.location.href={{post.link}}">
+		<img src="/Images/{{post.image}}" />
+		<div class="text">
+			<div>{{post.title}}</div>
+			<div class="author">{{post.author}}</div>
+			<div class="description">Read More →</div>
+		</div>
+	</div>
+{% endfor %}
+</div>
+
+<!--<div class="portfolio">
 	<div class="pitem" onclick="window.location.href='themes.html'">
 		<img class="pimg" src="../Images/SpartanOS/Manual/BLUEJAY.png" />
 		<div class="text">
@@ -28,5 +40,4 @@ layout: spartanos
 			<div class="description">Read More →</div>
 		</div>
 	</div>
-	<!--</div>-->
-</div>
+</div>-->

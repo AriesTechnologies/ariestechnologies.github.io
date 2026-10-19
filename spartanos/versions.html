@@ -3,7 +3,19 @@ layout: spartanos
 ---
 
 <div class="portfolio">
-	<!--<div class="prow">-->
+{% for post in site.data.spartanos_versions.versions %}
+	<div class="pitem" onclick="window.location.href='{{post.link}}.html'">
+		<img class="pimg" src="/Images/{{post.image}}" />
+		<div class="text">
+			<div>{{post.title}}</div>
+			<div class="year">{{post.year}}</div>
+			<div class="description">Read More →</div>
+		</div>
+	</div>
+{% endfor %}
+</div>
+
+<!--<div class="portfolio">
 	<div class="pitem" onclick="window.location.href='overview.html'">
 		<img class="pimg" src="../Images/AriesTech.png" />
 		<div class="text">
@@ -28,8 +40,6 @@ layout: spartanos
 			<div class="description">Read More →</div>
 		</div>
 	</div>
-	<!--</div>-->
-	<!--<div class="prow">-->
 		<div class="pitem" onclick="window.location.href='ambition.html'" >
 			<img class="pimg" src="../Images/SpartanOS/Ambition/Ambition.png" />
 			<div class="text">
@@ -46,5 +56,4 @@ layout: spartanos
 				<div class="description">Read More →</div>
 			</div>
 		</div>
-	<!--</div>-->
-</div>
+</div>-->
