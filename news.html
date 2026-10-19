@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="portfolio">
-{% for post in site.data.news %}
+{% for post in site.data.news.articles %}
 	<div class="pitem" onclick="window.location.href={{post.link}}">
 		<img src="Images/{{post.image}}" />
 		<div class="text">
