@@ -3,6 +3,20 @@ layout: default
 ---
 
 <div class="portfolio">
+{% for post in site.data.news %}
+	<div class="pitem" onclick="window.location.href={{post.link}}">
+		<img src="Images/{{post.image}}" />
+		<div class="text">
+			<div>{{post.title}}</div>
+			<div class="year">{{post.year}}</div>
+			<div class="author">{{post.author}}</div>
+			<div class="description">Read More →</div>
+		</div>
+	</div>
+{% endfor %}
+</div>
+
+<!--<div class="portfolio">
 	<div class="pitem" onclick="window.location.href='website_security.html'">
 		<img src="Images/AriesTech.png" />
 		<div class="text">
@@ -76,4 +90,4 @@ layout: default
 			<div class="description">Read More →</div>
 		</div>
 	</div>
-</div>
+</div>-->
