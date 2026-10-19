@@ -4,7 +4,7 @@ layout: spartanos
 
 <div class="portfolio">
 {% for post in site.data.spartanos_docs.docs %}
-	<div class="pitem" onclick="window.location.href={{post.link}}">
+	<div class="pitem" onclick="window.location.href='/spartanos/{{post.link}}'">
 		<img src="/Images/{{post.image}}" />
 		<div class="text">
 			<div>{{post.title}}</div>
