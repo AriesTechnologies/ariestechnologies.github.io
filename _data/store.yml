@@ -1,3 +1,14 @@
+tabs:
+  - link: "home.html"
+    image: "/assets/images/icons/dashboard.svg"
+    title: "HOME"
+  - link: "apps.html"
+    image: "/assets/images/icons/game.svg"
+    title: "APPS"
+  - link: "spartanos.html"
+    image: "/assets/images/icons/apps.svg"
+    title: "SPARTANOS"
+
 spartanos_apps:
   - link: "atlasoffice.html"
     image: "AtlasCorpLogoV4.png"
