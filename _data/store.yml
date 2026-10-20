@@ -26,6 +26,42 @@ spartanos_apps:
     author: "AtlasCorporations"
     cost: "$0.00"
 
+atlasoffice_data:
+  - title: "AtlasOffice"
+    image: "AtlasCorpLogoV4.png"
+    cost: "$2.00"
+    author: "AtlasCorporations LLC"
+    rating: "Everyone"
+    description: "AtlasOffice is a full office suite built for SpartanOS! It comes with Script, Present, and Table with more on the way free of extra fees."
+    requirements: "Codename {SpartanOS 2024} 1.0.0 Alpha"
+    warnings:
+      - desc: "None"
+    privacy_policy: "We do not collect any data from this application."
+
+sandbox_data:
+  - title: "Sandbox"
+    image: "AtlasCorpLogoV4.png"
+    cost: "$1.50"
+    author: "AtlasCorporations LLC"
+    rating: "Everyone"
+    description: "Sandbox is a programming playground in  which you can create apps in SpartanOS!"
+    requirements: "SpartanOS Eclipse 1.0.0 Alpha"
+    warnings:
+      - desc: "None"
+    privacy_policy: "We do not collect any data from this application."
+
+screensaver_data:
+  - title: "Screensaver"
+    image: "SpartanOS/Screensaver.png"
+    cost: "$0.00"
+    author: "AtlasCorporations LLC"
+    rating: "Everyone"
+    description: "Screensaver is the first non-standard app on SpartanOS. Screensaver is an app that can be ran when you leave your computer for a certain amount time to protect your screen from burn-in."
+    requirements: "SpartanOS Eclipse 1.0.0 Alpha"
+    warnings:
+      - desc: "Epilepsy Warning (Flashing lights)"
+    privacy_policy: "We do not collect any data from this application." 
+
 apps:
   - link: "townlands-remastered.html"
     image: "townlands.png"

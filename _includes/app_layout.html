@@ -1,0 +1,22 @@
+<div class="page">
+	<div class="cp">
+		<h1>{{includes.items.title}}</h1>
+		<img src="{{includes.items.image}}">
+		<!-- <button> -->
+		<p><u>Cost:</u>&nbsp;{{includes.items.cost}}</p>
+		<p><u>By:</u>&nbsp;{{includes.items.author}}</p>
+		<p><u>Rating:</u>&nbsp;{{includes.items.rating}}</p>
+		<p><u>Description:</u>{{includes.items.description}}</p>
+		<p><u>System Requirements:</u>&nbsp;{{includes.items.requirements}}</p>
+
+		<h2>Health and Safety Warnings:</h2>
+		<ul>
+			{% for item in includes.items.warnings %}
+			<li>{{item.desc}}</li>
+			{% endfor %}
+		</ul>
+
+		<h2>Privacy Policy:</h2>
+		<p>{{includes.items.privacy_policy}}<p>
+	</div>
+</div>
