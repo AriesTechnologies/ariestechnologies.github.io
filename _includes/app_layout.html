@@ -10,8 +10,8 @@
 
 		<h2>Health and Safety Warnings:</h2>
 		<ul>
-			{% for data in include.data.warnings %}
-			<li>{{data.desc}}</li>
+			{% for warning in include.data.warnings %}
+			<li>{{warning.desc}}</li>
 			{% endfor %}
 		</ul>
 
