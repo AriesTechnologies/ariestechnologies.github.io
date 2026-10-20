@@ -1,21 +1,21 @@
 <div class="page">
 	<div class="cp">
-		<h1>{{includes.item.title}}</h1>
-		<img src="{{includes.item.image}}">
-		<p><u>Cost:</u> {{includes.item.cost}}</p>
-		<p><u>By:</u> {{includes.item.author}}</p>
-		<p><u>Rating:</u> {{includes.item.rating}}</p>
-		<p><u>Description:</u>{{includes.item.description}}</p>
-		<p><u>System Requirements:</u> {{includes.item.requirements}}</p>
+		<h1>{{include.data.title}}</h1>
+		<img src="{{include.data.image}}">
+		<p><u>Cost:</u> {{include.data.cost}}</p>
+		<p><u>By:</u> {{include.data.author}}</p>
+		<p><u>Rating:</u> {{include.data.rating}}</p>
+		<p><u>Description:</u>{{include.data.description}}</p>
+		<p><u>System Requirements:</u> {{include.data.requirements}}</p>
 
 		<h2>Health and Safety Warnings:</h2>
 		<ul>
-			{% for item in includes.item.warnings %}
-			<li>{{item.desc}}</li>
+			{% for data in include.data.warnings %}
+			<li>{{data.desc}}</li>
 			{% endfor %}
 		</ul>
 
 		<h2>Privacy Policy:</h2>
-		<p>{{includes.item.privacy_policy}}<p>
+		<p>{{include.data.privacy_policy}}<p>
 	</div>
 </div>
