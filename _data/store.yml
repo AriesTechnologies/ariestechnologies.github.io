@@ -27,7 +27,7 @@ spartanos_apps:
     cost: "$0.00"
 
 atlasoffice_data:
-  - title: "AtlasOffice"
+    title: "AtlasOffice"
     image: "AtlasCorpLogoV4.png"
     cost: "$2.00"
     author: "AtlasCorporations LLC"
@@ -39,7 +39,7 @@ atlasoffice_data:
     privacy_policy: "We do not collect any data from this application."
 
 sandbox_data:
-  - title: "Sandbox"
+    title: "Sandbox"
     image: "AtlasCorpLogoV4.png"
     cost: "$1.50"
     author: "AtlasCorporations LLC"
@@ -51,7 +51,7 @@ sandbox_data:
     privacy_policy: "We do not collect any data from this application."
 
 screensaver_data:
-  - title: "Screensaver"
+    title: "Screensaver"
     image: "SpartanOS/Screensaver.png"
     cost: "$0.00"
     author: "AtlasCorporations LLC"
