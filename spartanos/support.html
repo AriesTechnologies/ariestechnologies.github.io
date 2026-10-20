@@ -8,13 +8,15 @@ layout: spartanos
 <p>Contact us on our Discord (AtlasCorporations)! Also please report any bugs you find! In your message please specify the application that this bug occurred on, what happened before the bug happened, and PLEASE specify the error number and error message if you are given one.</p>
 <div class="portfolio">
 	<div class="prow">
-		<div class="pitem" onclick="window.location.href='ambition-updates.html'">
-			<img src="/assets/images/AriesTech.png" />
+		{% for version in site.data.spartanos.support_versions %}
+		<div class="pitem" onclick="window.location.href='{{version.link}}'">
+			<img src="/assets/images/{{version.image}}" />
 			<div class="text">
-				<div>Ambition Updates</div>
-				<div class="year">2020</div>
+				<div>{{version.title}}</div>
+				<div class="year">{{version.year}}</div>
 				<div class="description">Read More →</div>
 			</div>
 		</div>
+		{% endfor %}
 	</div>
 </div>

@@ -12,6 +12,12 @@ docs:
     title: "App Versions"
     author: "CEO"
 
+support_versions:
+  - link: "ambition-updates.html"
+    image: "AriesTech.png"
+    title: "Ambition Updates"
+    year: "2020"
+
 versions:
   - link: "overview.html"
     image: "AriesTech.png"
