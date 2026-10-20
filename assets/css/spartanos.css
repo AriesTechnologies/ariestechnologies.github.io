@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "../style.css"; /*Copy all CSS from the main style and use it in here, everything below is modifications
+@import "/assets/css/main.css"; /*Copy all CSS from the main style and use it in here, everything below is modifications
 
 /* Standard CSS, not media-based */
 button {
