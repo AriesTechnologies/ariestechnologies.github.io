@@ -24,6 +24,9 @@ p {
 	text-align : center;
 	justify-content : center;
 }
+q {
+	font-style : italic;
+}
 img:not(.pitem img, nav img) {
 	width : 75%;
 	align-self : center;
@@ -105,10 +108,7 @@ nav img {
 
 .masthead {
 	display: flex;
-	background-image : url("/assets/images/AriesTechLogo.png");
-	background-repeat : no-repeat;
-	background-position : center;
-	background-size: contain; /*50%*/
+	background: url("/assets/images/AriesTechLogo.png") no-repeat center / contain 
 	background-blend-mode : darken;
 	height : 75vh;
 	font-family : Audiowide;
@@ -122,14 +122,13 @@ nav img {
 	text-decoration: none;
 	margin: 0px;
 }
-.masthead p {
+.masthead q {
 	font-size : 2.15rem;
 	margin-top : 0px;
 	padding-top : 0px;
 }
 .quote {
 	font-size : 1.5rem;
-	font-style : italic;
 }
 
 .portfolio {
