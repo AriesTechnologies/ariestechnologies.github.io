@@ -83,7 +83,7 @@ hr {
 }
 
 nav {
-	padding: 5px;
+	padding: 5px 0px;
 	z-index: 1;
 	position: absolute;
 	width: 100%;
