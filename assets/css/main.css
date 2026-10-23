@@ -149,12 +149,13 @@ nav img {
 	justify-content : space-evenly;
 	flex-basis: 33%;
 }
-.pitem:hover > img {
+.pitem:hover > img + .text {
 	opacity: 0.3;
- }
-.pitem:hover > .text {
 	visibility : visible;
-}
+ }
+/*.pitem:hover > .text {
+	visibility : visible;
+}*/
 
 .text {
 	visibility : hidden;
