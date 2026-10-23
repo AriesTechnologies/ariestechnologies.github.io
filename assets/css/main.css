@@ -4,7 +4,7 @@
 
 html {
 	box-sizing: border-box;
-	font-family: Assistant;
+	font-family: 'Assistant';
 }
 body {
 	display : flex;
@@ -30,9 +30,6 @@ q {
 img:not(.pitem img, nav img) {
 	width : 75%;
 	align-self : center;
-}
-a {
-	cursor: pointer;
 }
 a:link, a:visited {
 	text-decoration : none;
@@ -111,7 +108,7 @@ nav img {
 	background: url("/assets/images/AriesTechLogo.png") no-repeat center / contain; 
 	background-blend-mode : darken;
 	height : 75vh;
-	font-family : Audiowide;
+	font-family : 'Audiowide';
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
