@@ -6,12 +6,14 @@ html {
 	box-sizing: border-box;
 	font-family: 'Assistant';
 }
+*, *::before, *::after {
+	box-sizing: inherit;
+}
 body {
 	display : flex;
 	flex-direction : column;
 	text-align : center;
 	margin: 0px;
-	overflow-x: hidden;
 	font-size : 1.125rem;
 }
 h1 {
