@@ -6,7 +6,7 @@ layout: store
 	<div class="portfolio">
 	{% for post in site.data.store.apps %}
 			<div class="pitem" onclick="window.location.href='/store/{{post.link}}'">
-				<img class="pimg" src="/assets/images/{{post.image}}" />
+				<img src="/assets/images/{{post.image}}" />
 				<div class="text">
 					<div>{{post.title}}</div>
 					<div class="author">By: {{post.author}}</div>

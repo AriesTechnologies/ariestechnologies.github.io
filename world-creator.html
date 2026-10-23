@@ -10,21 +10,23 @@ layout: default
 <h2>Universal Database File:</h2>
 <p>Our Universal Database File is a multi-use, multi-functional file type. We call it a universal file type because it can be used to create objects quickly and efficiently in almost any programming language. You can also use this type of file in programming languages to create classes, definitions, variables, etc. It is a lot like a .json and HTML.</p>
 <h3>Example:</h3>
-<code>
-	<p>&lt;object : Model&gt;</p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;name : Dog&gt;</p>
-	<p>&lt;/object&gt;</p>
-	<p>&lt;type : String&gt;</p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;name : str&gt;</p>
-	<p>&lt;/type&gt;</p>
-	<p>&lt;object : 3d_Model&gt;</p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;name : House&gt;</p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;x : 100&gt;</p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;y : 100&gt;</p>
-	<p>&lt;/object&gt;</p>
-	<p>! { } =</p>
-	<p>{type = 3d}</p>
-	<p>	&nbsp;&nbsp;&nbsp;&nbsp;{__doc__ = Hello}</p>
-	<p>{/type}</p>
-</code>
+<pre>
+	<code>
+&lt;object : Model&gt;
+    &lt;name : Dog&gt;
+&lt;/object&gt;
+&lt;type : String&gt;
+    &lt;name : str&gt;
+&lt;/type&gt;
+&lt;object : 3d_Model&gt;
+    &lt;name : House&gt;
+    &lt;x : 100&gt;
+    &lt;y : 100&gt;
+&lt;/object&gt;
+! { } =
+{type = 3d}
+    {__doc__ = Hello}
+{/type}
+	</code>
+</pre>
 <p>(The exclamation point is used to change how the file is decoded. The characters after that represent the new syntax.)</p>
