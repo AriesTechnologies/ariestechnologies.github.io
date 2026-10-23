@@ -1,7 +1,14 @@
 <img id="nav-img" src="/assets/images/icons/AriesTech.svg" onclick="window.location.href='index.html'" />
-<a href="news.html">NEWS</a>
+{% for link in site.data.main.links %}
+	{% if link.link contains "/" %}
+		<a href="{{link.link}}" target="_blank" rel="noopener noreferrer">{{link.name}}</a>
+	{% else %}
+		<a href="{{link.link}}">{{link.name}}</a>
+	{% endif %}
+{% endfor %}
+
+<!--<a href="news.html">NEWS</a>
 <a href="spartanos/home.html" target="_blank" rel="noopener noreferrer">SPARTANOS</a>
-<a href="spartanos/acfs.html" target="_blank" rel="noopener noreferrer">ACFS</a>
 <a href="otherprojects.html">OTHER PROJECTS</a>
 <a href="store/home.html" target="_blank" rel="noopener noreferrer">STORE</a>
-<a href="support.html">SUPPORT</a>
+<a href="support.html">SUPPORT</a>-->

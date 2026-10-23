@@ -1,3 +1,15 @@
+links:
+  - name: "NEWS"
+    link: "news.html"
+  - name: "SPARTANOS"
+    link: "spartanos/home.html"
+  - name: "OTHER PROJECTS"
+    link: "otherprojects.html"
+  - name: "STORE"
+    link: "store/home.html"
+  - name: "SUPPORT"
+    link: "support.html"
+
 supporters:
   - name: "Holli Horton"
     job: "Teacher"

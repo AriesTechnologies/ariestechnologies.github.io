@@ -1,3 +1,13 @@
+links:
+  - name: "VERSIONS"
+    link: "versions.html"
+  - name: "DOCS"
+    link: "docs.html"
+  - name: "STORE"
+    link: "store/home.html"
+  - name: "SUPPORT"
+    link: "support.html"
+
 docs:
   - link: "themes.html"
     image: "SpartanOS/Manual/BLUEJAY.png"
