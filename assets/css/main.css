@@ -149,7 +149,7 @@ nav img {
 	justify-content : space-evenly;
 	flex-basis: 33%;
 }
-.pitem:hover > img {
+.pitem > img:hover {
 	opacity: 0.3;
  }
 .pitem > img:hover + .text {
