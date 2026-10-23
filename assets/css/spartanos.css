@@ -14,8 +14,6 @@ nav button {
 .masthead {
 	background-image : url("/assets/images/icons/SpartanOS.png");
 	font-family : none;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
 }
 .masthead h1 {
 	font-size : 3rem;
