@@ -2,11 +2,11 @@ links:
   - name: "NEWS"
     link: "news.html"
   - name: "SPARTANOS"
-    link: "spartanos/home.html"
+    link: "spartanos/index.html"
   - name: "OTHER PROJECTS"
     link: "otherprojects.html"
   - name: "STORE"
-    link: "store/home.html"
+    link: "store/index.html"
   - name: "SUPPORT"
     link: "support.html"
 
