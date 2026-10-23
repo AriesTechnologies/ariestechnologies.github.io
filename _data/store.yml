@@ -1,12 +1,12 @@
 tabs:
-  - link: "home.html"
-    image: "/assets/images/icons/dashboard.svg"
+  - link: "index.html"
+    image: "icons/dashboard.svg"
     title: "HOME"
   - link: "apps.html"
-    image: "/assets/images/icons/game.svg"
+    image: "icons/game.svg"
     title: "APPS"
   - link: "spartanos.html"
-    image: "/assets/images/icons/apps.svg"
+    image: "icons/apps.svg"
     title: "SPARTANOS"
 
 spartanos_apps:

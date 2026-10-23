@@ -1,7 +1,7 @@
 <div class="navigation">
     {% for tab in site.data.store.tabs %}
     <label onclick="window.location.href='{{tab.link}}'">
-        <img src="{{tab.image}}" />
+        <img src="/assets/images/{{tab.image}}" />
         <a>{{tab.title}}</a>
     </label>
     {% endfor %}
