@@ -27,6 +27,15 @@ p {
 q {
 	font-style : italic;
 }
+ul, ol {
+	list-style-position: inside;
+}
+li::marker {
+	content: "- ";
+}
+figcaption {
+	font-size : 1.125rem;
+}
 img:not(.pitem img, nav img) {
 	width : 75%;
 	align-self : center;

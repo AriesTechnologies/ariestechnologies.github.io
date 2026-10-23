@@ -21,12 +21,16 @@ to help with everyday life, your entertainment, and scientific research.</p>
 <p>Thanks to all our supporters, all our families, and all our teachers that have supported our company!</p>
 <p>We greatly appreciate you! Some very special supporters are...</p>
 
-{% for supporter in site.data.main.supporters %}
-<p>{{supporter.name}} ({{supporter.job}})</p>
-{% endfor %}
+<ul>
+	{% for supporter in site.data.main.supporters %}
+	<li>{{supporter.name}} ({{supporter.job}})</li>
+	{% endfor %}
+</ul>
 
 <h2>Our Logo Through The Years</h2>
 {% for logo in site.data.main.logos %}
-<img src="/assets/images/{{logo.image}}">
-<p>{{logo.name}} Logo: {{logo.start_date}} - {{logo.end_date}}</p>
+<figure>
+	<img src="/assets/images/{{logo.image}}">
+	<figcaption>{{logo.name}} Logo: {{logo.start_date}} - {{logo.end_date}}</figcaption>
+</figure>
 {% endfor %}

@@ -81,9 +81,6 @@ h1 {
 	margin-left: 5%;
 	margin-top: 0vh;
 }
-ul {
-	list-style-position: inside;
-}
 
 @media only screen and (width <= 800px) {
 	:root {
