@@ -1,21 +1,7 @@
 <div class="page">
-	<div class="cp">
+	<div>
 		<h1>{{include.data.title}}</h1>
-		<img src="/assets/images/{{include.data.image}}">
-		<p><u>Cost:</u> {{include.data.cost}}</p>
-		<p><u>By:</u> {{include.data.author}}</p>
-		<p><u>Rating:</u> {{include.data.rating}}</p>
-		<p><u>Description:</u> {{include.data.description}}</p>
-		<p><u>System Requirements:</u> {{include.data.requirements}}</p>
-
-		<h2>Health and Safety Warnings:</h2>
-		<ul>
-			{% for warning in include.data.warnings %}
-			<li>{{warning.desc}}</li>
-			{% endfor %}
-		</ul>
-
-		<h2>Privacy Policy:</h2>
-		<p>{{include.data.privacy_policy}}<p>
+		<img src="/assets/images/{{include.data.image}}" />
+		<p>{{include.data.desc}}</p>
 	</div>
 </div>

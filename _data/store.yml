@@ -83,3 +83,23 @@ apps:
     title: "Zombies I"
     author: "AtlasCorporations"
     cost: "$0.00"
+
+townlands_remastered_data:
+    title: "Townlands"
+    image: "townlands.png"
+    description: "Townlands: Remastered (2022): is AtlasCorporations remastered version of the hit Townlands."
+
+atlasdesigner_data:
+    title: "AtlasDesigner"
+    image: "AtlasDesigner3.png"
+    description: "AtlasDesigner is AtlasCorporations vector drawing applications that is in development. Right now all it does is create an image out of text. It also handles layers internally that you can't access yet."
+
+townlands_data:
+    title: "Townlands"
+    image: "townlands.png"
+    description: "Townlands (2017): was AtlasStudios game based loosely off Kingdoms: New Lands. It was AtlasStudios first publicly released game that was coded in Python."
+
+zombies_data:
+    title: "Zombies Series"
+    image: "zombies.png"
+    description: "Zombies is AtlasStudios zombie shooter series. Zombies I was programmed Python 3.6.4 in 2017 ."
