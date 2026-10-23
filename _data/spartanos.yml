@@ -4,7 +4,7 @@ links:
   - name: "DOCS"
     link: "docs.html"
   - name: "STORE"
-    link: "store/home.html"
+    link: "/store/home.html"
   - name: "SUPPORT"
     link: "support.html"
 
