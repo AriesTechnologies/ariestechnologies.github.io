@@ -139,7 +139,8 @@ nav img {
 .portfolio {
 	display: flex;
 	flex-flow: row wrap;
-	margin: 6vh 10px 10px 10px;
+	margin: 6vh 0px 10px;
+	/*margin: 6vh 10px 10px 10px;*/
 	width: 100%;
 }
 .pitem {
