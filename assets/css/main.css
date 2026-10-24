@@ -214,7 +214,10 @@ nav img {
 		max-height: 50%;
 	}
 	.masthead h1 {
-		font-size : 4rem;
+		font-size : 3rem;
+	}
+	.masthead q {
+		font-size : 1.5rem;
 	}
 	.portfolio {
 		margin: 6vh 1px 1px 1px;
