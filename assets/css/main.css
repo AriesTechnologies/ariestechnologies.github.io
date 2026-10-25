@@ -219,6 +219,9 @@ nav img {
 	.masthead q {
 		font-size : 1.5rem;
 	}
+	.masthead button {
+		margin-bottom: 5px;
+	}
 	.portfolio {
 		margin: 6vh 1px 1px 1px;
 	}
