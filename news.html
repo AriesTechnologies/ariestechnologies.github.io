@@ -4,7 +4,7 @@ layout: default
 
 <div class="portfolio">
 {% for post in site.data.main.articles %}
-	<div class="pitem"  onclick="window.location.href={{post.link}}">
+	<div class="pitem"  onclick="window.location.href='{{post.link}}'">
 		<img src="/assets/images/{{post.image}}" />
 		<div class="text">
 			<div>{{post.title}}</div>
