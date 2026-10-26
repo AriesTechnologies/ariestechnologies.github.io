@@ -10,7 +10,7 @@
 		<docs>https://www.rssboard.org/rss-specification</docs>
 		<image>
 			<title>AriesTechnologies Logo</title>
-			<url>https://ariestechnologies.github.io/Images/AriesTechLogo.png</url>
+			<url>https://ariestechnologies.github.io/assets/images/AriesTechLogo.png</url>
 			<link>https://ariestechnologies.github.io</link>
 		</image>
 
@@ -20,7 +20,7 @@
 			<description>Release of Spirit of Rebellion (IU 0.36.2 Gamma)</description>
 			<pubDate>Sun, 18 Oct 2026 17:01:20 -0500</pubDate>
 			<guid>b94f144a-9296-423f-b031-e0577d21400b</guid>
-			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type_="image/png" />
+			<enclosure url="https://ariestechnologies.github.io/assets/images/AriesTechLogo.png" length="23897" type_="image/png" />
 		</item>
 		<item>
 			<title>Spirit of Rebellion (IU 0.36.1 Gamma)</title>
@@ -28,7 +28,7 @@
 			<description>Release of Spirit of Rebellion (IU 0.36.1 Gamma)</description>
 			<pubDate>Mon, 21 Sep 2026 21:56:22 -0500</pubDate>
 			<guid>6d0f6025-2a34-45c3-beca-ce533b6444fd</guid>
-			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type_="image/png" />
+			<enclosure url="https://ariestechnologies.github.io/assets/images/AriesTechLogo.png" length="23897" type_="image/png" />
 		</item>
 		<item>
 			<title>Spirit of Rebellion (FU 0.36.0 Gamma)</title>
@@ -36,7 +36,7 @@
 			<description>Release of Spirit of Rebellion (FU 0.36.0 Gamma)</description>
 			<pubDate>Sun, 13 Sep 2026 22:15:55 -0500</pubDate>
 			<guid>50984c1d-fb07-46a5-964c-b4e00d944e81</guid>
-			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type_="image/png" />
+			<enclosure url="https://ariestechnologies.github.io/assets/images/AriesTechLogo.png" length="23897" type_="image/png" />
 		</item>
 		<item>
 			<title>Spirit of Rebellion (FU 0.35.0 Gamma)</title>
@@ -44,7 +44,7 @@
 			<description>Release of Spirit of Rebellion (FU 0.35.0 Gamma)</description>
 			<pubDate>Mon, 03 Aug 2026 19:38:21 -0500</pubDate>
 			<guid>f2b81019-a79c-4f35-824c-4a43fe44b19c</guid>
-			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type_="image/png" />
+			<enclosure url="https://ariestechnologies.github.io/assets/images/AriesTechLogo.png" length="23897" type_="image/png" />
 		</item>
 		<item>
 			<title>Spirit of Rebellion (FU 0.34.0 Gamma)</title>
@@ -52,7 +52,7 @@
 			<description>Release of Spirit of Rebellion (FU 0.34.0)</description>
 			<pubDate>Fri, 24 Jul 2026 16:33:54 -0500</pubDate>
 			<guid>6f24683d-3d71-402b-bcd2-152f1d09adbf</guid>
-			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type_="image/png" />
+			<enclosure url="https://ariestechnologies.github.io/assets/images/AriesTechLogo.png" length="23897" type_="image/png" />
 		</item>
 		<item>
 			<title>Spirit of Rebellion (IU 0.33.2 Gamma)</title>
@@ -60,7 +60,7 @@
 			<description>Release of Spirit of Rebellion (IU 0.33.2 Gamma)</description>
 			<pubDate>Fri, 24 Jul 2026 08:07:55 -0500</pubDate>
 			<guid>642ea5a5-cad5-4eb3-9267-28b9838783d5</guid>
-			<enclosure url="https://ariestechnologies.github.io/Images/AriesTechLogo.png" length="23897" type_="image/png" />
+			<enclosure url="https://ariestechnologies.github.io/assets/images/AriesTechLogo.png" length="23897" type_="image/png" />
 		</item>
 	</channel>
 </rss>
