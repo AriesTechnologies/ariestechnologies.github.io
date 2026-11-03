@@ -110,7 +110,7 @@ nav img {
 
 .masthead {
 	display: flex;
-	background: url("/assets/images/AriesTechLogo.png") no-repeat center / contain; 
+	background: rgba(0,0,0,0.2) url("/assets/images/AriesTechLogo.png") no-repeat center / contain; 
 	background-blend-mode : darken;
 	height : 75vh;
 	font-family : 'Audiowide';
